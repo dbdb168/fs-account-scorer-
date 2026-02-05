@@ -26,28 +26,29 @@ Current FMP free tier no longer includes earnings transcripts or press releases.
 - Would populate the empty `executives` array in company data
 
 ### App Store ID Fixes
-**Priority:** Medium
-**Status:** Partial
-
-Some companies returned no reviews — need to verify/update App Store IDs:
-- Goldman Sachs (Marcus app ID may be wrong)
-- Toronto-Dominion Bank (TD app)
-- Truist Financial
-- Elevance Health (Sydney Health app)
-- Humana (MyHumana)
-- Manulife
-- Sun Life
-- MetLife
-- Prudential
-
-### Canadian Company Data
 **Priority:** Low
-**Status:** Limited
+**Status:** Complete
 
-Canadian companies (RBC, TD, BMO, Manulife, Sun Life) have no SEC filings. Options:
-- SEDAR+ API (Canadian regulatory filings)
+All 20 App Store IDs verified and working. Fixed:
+- Prudential: Changed from Hong Kong app to US app (6751651152)
+- U.S. Bancorp: Changed from invalid ID to correct app (458734623)
+
+### Canadian Company Data (SEDAR+)
+**Priority:** Medium
+**Status:** Not implemented
+
+Canadian companies (RBC, TD, BMO, Manulife, Sun Life) currently only have App Store data — no SEC filings available. These 5 companies show "Insufficient data" for most signal categories.
+
+**Recommended solution: SEDAR+ API**
+- SEDAR+ is Canada's equivalent to SEC EDGAR
+- URL: https://www.sedarplus.ca/
+- Contains: Annual reports, MD&A, material change reports
+- Would provide same signal extraction capability as US companies
+
+**Alternative options:**
+- TMX Money API (Toronto Stock Exchange data)
 - Web scraping investor relations pages
-- Rely on press releases + app reviews only
+- Canadian news sources (Globe and Mail, Financial Post)
 
 ---
 
