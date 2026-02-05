@@ -1,0 +1,369 @@
+[
+  {
+    "id": "jpmorgan",
+    "name": "JPMorgan Chase",
+    "ticker": "JPM",
+    "sector": "bank",
+    "country": "US",
+    "score": 82,
+    "tier": "high",
+    "signals": {
+      "aiCxInvestment": {
+        "score": 92,
+        "weight": 0.30,
+        "evidence": [
+          {
+            "text": "We're investing over $2 billion annually in technology, with a significant focus on AI and machine learning capabilities across our consumer and commercial businesses.",
+            "source": "Q4 2025 Earnings Call - Jamie Dimon",
+            "sourceUrl": "https://investor.jpmorgan.com/earnings",
+            "date": "2026-01-15"
+          },
+          {
+            "text": "JPMorgan announces $500M investment in generative AI initiatives for customer service transformation",
+            "source": "Press Release",
+            "sourceUrl": "https://www.jpmorganchase.com/news",
+            "date": "2025-11-08"
+          },
+          {
+            "text": "The bank is piloting AI-powered financial advisors in select branches, with plans for nationwide rollout in 2026",
+            "source": "American Banker",
+            "sourceUrl": "https://www.americanbanker.com",
+            "date": "2025-12-03"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 75,
+        "weight": 0.20,
+        "evidence": [
+          {
+            "text": "Chase announces expansion into 15 new U.S. markets, targeting underserved communities with digital-first banking services",
+            "source": "Press Release",
+            "sourceUrl": "https://www.jpmorganchase.com/news",
+            "date": "2025-10-22"
+          },
+          {
+            "text": "JPMorgan expands wealth management services to mass affluent segment with new digital platform",
+            "source": "Reuters",
+            "sourceUrl": "https://www.reuters.com",
+            "date": "2025-09-15"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 88,
+        "weight": 0.20,
+        "evidence": [
+          {
+            "text": "Chase launches redesigned mobile app with personalized insights and AI-driven spending recommendations",
+            "source": "Press Release",
+            "sourceUrl": "https://www.jpmorganchase.com/news",
+            "date": "2025-11-20"
+          },
+          {
+            "text": "New Chase Business Complete Banking platform targets small business digital transformation",
+            "source": "Wall Street Journal",
+            "sourceUrl": "https://www.wsj.com",
+            "date": "2025-12-10"
+          },
+          {
+            "text": "JPMorgan introduces real-time cross-border payment solution for commercial clients",
+            "source": "Financial Times",
+            "sourceUrl": "https://www.ft.com",
+            "date": "2026-01-05"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 85,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "JPMorgan Chase names Sri Shivananda as firmwide Chief Technology Officer, succeeding A.J. Lang",
+            "source": "Banking Dive",
+            "sourceUrl": "https://www.bankingdive.com/news/jpmorgan-chase-names-firmwide-cto-chief-technology-officer-sri-shivananda/718601/",
+            "date": "2026-01-15"
+          },
+          {
+            "text": "New CTO brings experience from PayPal and eBay, signaling continued tech investment focus",
+            "source": "CIO Dive",
+            "sourceUrl": "https://www.ciodive.com",
+            "date": "2026-01-16"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 65,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Chase mobile app rating: 4.2/5 (iOS), down from 4.5 in 2024. Common complaints: login issues, slow transfers",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-01-30"
+          },
+          {
+            "text": "CFPB complaint volume up 12% YoY, primarily around digital banking access and fraud resolution",
+            "source": "CFPB Database",
+            "sourceUrl": "https://www.consumerfinance.gov",
+            "date": "2025-12-31"
+          }
+        ]
+      }
+    },
+    "executives": [
+      {
+        "name": "Jamie Dimon",
+        "title": "Chairman & CEO",
+        "linkedIn": "https://www.linkedin.com/in/jamiedimon/",
+        "tenureMonths": 228
+      },
+      {
+        "name": "Lori Beer",
+        "title": "Global Chief Information Officer",
+        "linkedIn": "https://www.linkedin.com/in/lori-beer-93355a/",
+        "tenureMonths": 96
+      },
+      {
+        "name": "Teresa Heitsenrether",
+        "title": "Chief Data & Analytics Officer",
+        "linkedIn": "https://www.linkedin.com/in/teresa-heitsenrether-8a37901/",
+        "tenureMonths": 24
+      }
+    ],
+    "lastUpdated": "2026-02-01"
+  },
+  {
+    "id": "manulife",
+    "name": "Manulife Financial",
+    "ticker": "MFC",
+    "sector": "insurance",
+    "country": "CA",
+    "score": 61,
+    "tier": "medium",
+    "signals": {
+      "aiCxInvestment": {
+        "score": 58,
+        "weight": 0.30,
+        "evidence": [
+          {
+            "text": "We expect AI to generate $1-billion of value between 2025 and 2027.",
+            "source": "Globe and Mail - CEO Phil Witherington",
+            "sourceUrl": "https://www.theglobeandmail.com/business/article-manulife-ceo-phil-witherington-artificial-intelligence-united-states/",
+            "date": "2025-11-10"
+          },
+          {
+            "text": "Manulife partners with tech firm to enhance digital customer onboarding experience",
+            "source": "Insurance Journal",
+            "sourceUrl": "https://www.insurancejournal.com",
+            "date": "2025-08-25"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 78,
+        "weight": 0.20,
+        "evidence": [
+          {
+            "text": "Manulife expands Asia wealth management footprint with new digital platform launch in Vietnam and Indonesia",
+            "source": "Press Release",
+            "sourceUrl": "https://www.manulife.com/news",
+            "date": "2025-10-15"
+          },
+          {
+            "text": "John Hancock (Manulife US) targets millennial market with new digital-only life insurance product",
+            "source": "Reuters",
+            "sourceUrl": "https://www.reuters.com",
+            "date": "2025-12-01"
+          },
+          {
+            "text": "New CEO announces strategic focus on expanding U.S. business to middle-income clients and gaining footing in India",
+            "source": "Globe and Mail",
+            "sourceUrl": "https://www.theglobeandmail.com",
+            "date": "2025-11-15"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 62,
+        "weight": 0.20,
+        "evidence": [
+          {
+            "text": "Manulife Vitality program expands with new wearable integrations and personalized health insights",
+            "source": "Press Release",
+            "sourceUrl": "https://www.manulife.com/news",
+            "date": "2025-09-18"
+          },
+          {
+            "text": "New group benefits digital platform aims to simplify employer administration",
+            "source": "Benefits Canada",
+            "sourceUrl": "https://www.benefitscanada.com",
+            "date": "2025-11-30"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 85,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Manulife appoints Phil Witherington as President & CEO, succeeding Roy Gori who retired after 7 years",
+            "source": "Press Release",
+            "sourceUrl": "https://www.manulife.com/en/news/manulife-president-and-ceo-roy-gori-announces-his-plans-to-retire-in-may-2025.html",
+            "date": "2025-05-08"
+          },
+          {
+            "text": "New CEO brings 26 years of financial industry experience, previously led Manulife Asia operations",
+            "source": "Insurance Business",
+            "sourceUrl": "https://www.insurancebusinessmag.com/ca/news/life-insurance/phil-witherington-to-take-the-helm-as-manulife-ceo-in-2025-514352.aspx",
+            "date": "2025-05-08"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 55,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Manulife mobile app rating: 3.8/5 (iOS). Reviews mention outdated interface and slow policy access",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-01-30"
+          },
+          {
+            "text": "Customer satisfaction scores below industry average in digital channel interactions per J.D. Power study",
+            "source": "J.D. Power",
+            "sourceUrl": "https://www.jdpower.com",
+            "date": "2025-10-15"
+          }
+        ]
+      }
+    },
+    "executives": [
+      {
+        "name": "Phil Witherington",
+        "title": "President & CEO",
+        "linkedIn": "https://www.linkedin.com/in/phil-witherington-95040860/",
+        "tenureMonths": 9,
+        "isNewHire": true
+      },
+      {
+        "name": "Karen Leggett",
+        "title": "Global Chief Marketing Officer",
+        "linkedIn": "https://ca.linkedin.com/in/leggettkaren",
+        "tenureMonths": 60
+      }
+    ],
+    "lastUpdated": "2026-02-01"
+  },
+  {
+    "id": "rbc",
+    "name": "Royal Bank of Canada",
+    "ticker": "RY",
+    "sector": "bank",
+    "country": "CA",
+    "score": 45,
+    "tier": "lower",
+    "signals": {
+      "aiCxInvestment": {
+        "score": 48,
+        "weight": 0.30,
+        "evidence": [
+          {
+            "text": "We continue to invest in technology to maintain our digital leadership position. Our mobile app remains top-rated in Canada.",
+            "source": "Q4 2025 Earnings Call",
+            "sourceUrl": "https://www.rbc.com/investors",
+            "date": "2025-12-01"
+          },
+          {
+            "text": "RBC's digital strategy focused on maintaining existing platforms rather than major new initiatives",
+            "source": "Globe and Mail",
+            "sourceUrl": "https://www.theglobeandmail.com",
+            "date": "2025-11-15"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 35,
+        "weight": 0.20,
+        "evidence": [
+          {
+            "text": "RBC maintains focus on core Canadian and U.S. markets, no significant expansion announcements in 2025",
+            "source": "Annual Report 2025",
+            "sourceUrl": "https://www.rbc.com/investors",
+            "date": "2025-12-15"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 42,
+        "weight": 0.20,
+        "evidence": [
+          {
+            "text": "RBC Mobile continues incremental updates, adds new budgeting features",
+            "source": "Press Release",
+            "sourceUrl": "https://www.rbc.com/news",
+            "date": "2025-10-05"
+          },
+          {
+            "text": "Wealth management platform receives minor UX refresh",
+            "source": "Financial Post",
+            "sourceUrl": "https://financialpost.com",
+            "date": "2025-09-20"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 30,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Executive team stable. CEO Dave McKay in role since 2014, technology leadership unchanged since 2022",
+            "source": "Company Profile",
+            "sourceUrl": "https://www.rbc.com/about",
+            "date": "2026-01-01"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 82,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "RBC Mobile rated 4.8/5 on iOS App Store, highest among Canadian banks",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-01-30"
+          },
+          {
+            "text": "J.D. Power ranks RBC #1 in Canadian banking customer satisfaction for third consecutive year",
+            "source": "J.D. Power",
+            "sourceUrl": "https://www.jdpower.com",
+            "date": "2025-11-01"
+          }
+        ]
+      }
+    },
+    "executives": [
+      {
+        "name": "Dave McKay",
+        "title": "President & CEO",
+        "linkedIn": "https://ca.linkedin.com/in/dave-mckay-4189071",
+        "tenureMonths": 132
+      },
+      {
+        "name": "Bruce Ross",
+        "title": "Group Head, Technology & Operations",
+        "linkedIn": "https://ca.linkedin.com/in/bruce-ross-b8059516",
+        "tenureMonths": 48
+      },
+      {
+        "name": "Neil McLaughlin",
+        "title": "Group Head, RBC Wealth Management",
+        "linkedIn": "https://ca.linkedin.com/in/neil-mclaughlin",
+        "tenureMonths": 12
+      }
+    ],
+    "lastUpdated": "2026-02-01"
+  }
+]
