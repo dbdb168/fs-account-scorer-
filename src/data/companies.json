@@ -10,14 +10,32 @@
     "appRating": 1.3,
     "signals": {
       "aiCxInvestment": {
-        "score": 50,
+        "score": 65,
         "weight": 0.3,
         "evidence": [
           {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
+            "text": "Innovation and Technology As a result of increased innovation and technology, the NAIC and insurance regulators are focused on the use of big data techniques, such as the use of artificial intelligence ( AI ), machine learning and automated decision-making",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1099219/000109921925000230/met-20250930.htm",
+            "date": "2025-02-21"
+          },
+          {
+            "text": "AI Artificial Intelligence",
+            "source": "10-Q",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1099219/000109921925000230/met-20250930.htm",
+            "date": "2025-11-07"
+          },
+          {
+            "text": "European Union s Artificial Intelligence Act ( EU AI Act ) became effective in 2024. Among other things, the EU AI Act prohibits certain unacceptable AI practices while seeking to boost innovation and ensure fundamental rights are not infringed by the technology. We continue to monitor the developments of the EU AI Act",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1099219/000109921925000230/met-20250930.htm",
+            "date": "2025-02-21"
+          },
+          {
+            "text": "technological changes",
+            "source": "10-Q",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1099219/000109921925000230/met-20250930.htm",
+            "date": "2025-08-07"
           }
         ]
       },
@@ -68,20 +86,20 @@
             "date": "2026-02-01"
           },
           {
-            "text": "When I try to find a provider, it tells me the system is updating and try again in 1-2 hours. I've been trying for two weeks.",
-            "source": "App Store Reviews",
+            "text": "Every time MetLife updates the app it gets more worthless. The latest update will not even show my claim. The provider locator and procedure estimates don't even appear on the app",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "The app does not work at all. Once you log in, if you try to do anything it'll load for quite some time then says try again.",
-            "source": "App Store Reviews",
+            "text": "It's mind blowing how little this app works. I tap to view my ID card an not a single button works, not even the back button! I'm trying to add the card to Apple Wallet so I never have to log into this app again (which can take anywhere from 2-5 minutes just to load), lo-and-behold that doesn't work",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "Every time MetLife updates the app it gets more worthless. The latest update will not even show my claim. The provider locator and procedure estimates don't even appear on the app.",
-            "source": "App Store Reviews",
+            "text": "When logging into the app OR the website it just spins and eventually times out and tells me it was unable to load my profile. There's no easy way to contact anyone to get support on this matter",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -160,20 +178,20 @@
             "date": "2026-02-01"
           },
           {
-            "text": "The app terrible to navigate, glitches often, and doesn't show relevant information about coverage. Information is anything but straightforward. Either the app was designed VERY poorly or intentionally to frustrate and deter clients from accessing coverage that they PAY FOR.",
-            "source": "App Store Data",
+            "text": "The app terrible to navigate, glitches often, and doesn't show relevant information about coverage. Information is anything but straightforward. Either the app was designed VERY poorly or intentionally to frustrate and deter clients",
+            "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
             "text": "Nothing ever loads, I am forced to use the mobile site",
-            "source": "App Store Data",
+            "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "Coverage Tab Freezes App: Tapping the Coverage tab freezes the app. This critical bug has been present for over two months with no fix, making the app unreliable and frustrating to use.",
-            "source": "App Store Data",
+            "text": "Coverage Tab Freezes App: Tapping the Coverage tab freezes the app. This critical bug has been present for over two months with no fix",
+            "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -188,6 +206,98 @@
     "name": "Bank of Montreal",
     "ticker": "BMO",
     "sector": "bank",
+    "country": "CA",
+    "score": 68,
+    "tier": "high",
+    "appRating": 1.8,
+    "signals": {
+      "aiCxInvestment": {
+        "score": 50,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 95,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Average Rating: 1.8/5 (49 recent reviews)",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "It's been a couple months I struggled logging in using this app... It just loads for hours and not letting me in",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "The app feels very old, the UI is not optimized and it feels like a website, not an app. I am stumbling upon bugs very often",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "This BMO app is down more than it works. Awful.",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "sunlife",
+    "name": "Sun Life Financial",
+    "ticker": "SLF",
+    "sector": "insurance",
     "country": "CA",
     "score": 66,
     "tier": "high",
@@ -252,19 +362,19 @@
             "date": "2026-02-01"
           },
           {
-            "text": "The app feels very old, the UI is not optimized and it feels like a website, not an app. I am stumbling upon bugs very often.",
+            "text": "This app is useless! Anytime I get notification on my iPhone according to my claim or benefits and click on it nothing happens, no information, and most often app crashes",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "Won't load - Lately, after confirming my Face ID, the app gets stuck on a loading screen. I reinstalled the app and it let me log in a total of one time before getting stuck in the same loop again.",
+            "text": "I've mentioned it before, but even in new version issue still persists. It gets stuck on loading after I enter 2FA code",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "This BMO app is down more than it works. Awful.",
+            "text": "Since the new update the functionality for investment viewing is limited at best. Unable to view my individual investments any more",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
@@ -276,24 +386,42 @@
     "lastUpdated": "2026-02-05"
   },
   {
-    "id": "sunlife",
-    "name": "Sun Life Financial",
-    "ticker": "SLF",
-    "sector": "insurance",
-    "country": "CA",
-    "score": 64,
+    "id": "citi",
+    "name": "Citigroup",
+    "ticker": "C",
+    "sector": "bank",
+    "country": "US",
+    "score": 62,
     "tier": "medium",
-    "appRating": 2,
+    "appRating": 2.1,
     "signals": {
       "aiCxInvestment": {
-        "score": 50,
+        "score": 75,
         "weight": 0.3,
         "evidence": [
           {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
+            "text": "Citi has been working with AI and machine learning for a period of time and has more recently begun using Generative AI, a type of artificial intelligence that uses generative models to create text and other content",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/831001/000083100125000154/c-20250930.htm",
+            "date": "2025-02-21"
+          },
+          {
+            "text": "Generative AI tools are available to employees within parts of the Company, and in the future Citi may more broadly use, develop and incorporate Generative AI within its technology platform and services, systems and its businesses",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/831001/000083100125000154/c-20250930.htm",
+            "date": "2025-02-21"
+          },
+          {
+            "text": "the introduction of mobile platforms and emerging technologies, such as artificial intelligence (AI) and digital assets, and changes in the payments space (e.g., instant and 24/7 payments) are accelerating",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/831001/000083100125000154/c-20250930.htm",
+            "date": "2025-02-21"
+          },
+          {
+            "text": "Technology Committee assists the Board in fulfilling its responsibility for oversight of the Company with respect to (i) the planning and execution of Citigroup s technology strategy and operating plan, (ii) the development of Citi s target state operating model and architecture",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/831001/000083100125000154/c-20250930.htm",
+            "date": "2025-02-21"
           }
         ]
       },
@@ -338,98 +466,6 @@
         "weight": 0.15,
         "evidence": [
           {
-            "text": "Average Rating: 2/5 (49 recent reviews)",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Since the new update the functionality for investment viewing is limited at best. Unable to view my individual investments any more. Only able to see the total.",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Signing in is next to impossible. Goodluck if you have a new account",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "THIS IS THE WORST APP I HAVE USED.",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          }
-        ]
-      }
-    },
-    "executives": [],
-    "lastUpdated": "2026-02-05"
-  },
-  {
-    "id": "citi",
-    "name": "Citigroup",
-    "ticker": "C",
-    "sector": "bank",
-    "country": "US",
-    "score": 62,
-    "tier": "medium",
-    "appRating": 2.1,
-    "signals": {
-      "aiCxInvestment": {
-        "score": 50,
-        "weight": 0.3,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newMarkets": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newProducts": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "leadershipChanges": {
-        "score": 50,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "cxIndicators": {
-        "score": 95,
-        "weight": 0.15,
-        "evidence": [
-          {
             "text": "Average Rating: 2.1/5 (49 recent reviews)",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
@@ -442,13 +478,13 @@
             "date": "2026-02-01"
           },
           {
-            "text": "After I get downgraded from Citi gold to regular Citi account, the app lost all my account information. When I log in, the only thing I can see is my credit card. I can't see my checking account, saving account, and linked account— the app lost all that information!",
+            "text": "After I get downgraded from Citi gold to regular Citi account, the app lost all my account information. When I log in, the only thing I can see is my credit card. I can't see my checking account, saving account, and linked account— the app lost all that information! Terrible app!",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "The amount of times I've had to call city support to clear out their false positive on potential fraud makes this app simply unusable. Please fix your algorithms or be better at detecting fraud.",
+            "text": "For the past month, I haven't been able to enter the amount when using Zelle in the app on my iPhone 12 Pro. The keyboard appears, but the numbers don't register when I type",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
@@ -465,9 +501,9 @@
     "ticker": "RY",
     "sector": "bank",
     "country": "CA",
-    "score": 60,
+    "score": 62,
     "tier": "medium",
-    "appRating": 2.2,
+    "appRating": 2.1,
     "signals": {
       "aiCxInvestment": {
         "score": 50,
@@ -498,26 +534,20 @@
         "weight": 0.2,
         "evidence": [
           {
-            "text": "Much cleaner look, but still no dark mode",
-            "source": "App Store Review",
+            "text": "6.60.0 still has design issues",
+            "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "The latest upgrade is awful and a step backwards",
-            "source": "App Store Review",
+            "text": "The new update is awful for direct investing. It no longer has the option to choose 'all or none' when buying/selling qualifying stocks",
+            "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
             "text": "This last update 6.59.1 is a mess. The stock overview is garbage",
-            "source": "App Store Review",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "clean UI , user friendly, easy to use , great app",
-            "source": "App Store Review",
+            "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -540,26 +570,26 @@
         "weight": 0.15,
         "evidence": [
           {
-            "text": "Average Rating: 2.2/5 (49 recent reviews)",
+            "text": "Average Rating: 2.1/5 (49 recent reviews)",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
             "text": "Cannot login! Always have technical difficulties!! Even after updating the app it still doesn't fix the problem, seriously considering changing to other bank",
-            "source": "App Store Review",
+            "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "I can't express how frustrating this app is. The poor performance is for absolutely no reason. To be performing the way RBC mobile does with the advanced technology that we have is embarrassing.",
-            "source": "App Store Review",
+            "text": "I can't activate the virtual visa card from the app because keeps sending an error saying 'something went wrong'. I already went to the branch, called for support too and nobody can help me",
+            "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "I can't activate the virtual visa card from the app because keeps sending an error saying 'something went wrong'. I already went to the branch, called for support too and nobody can help me.",
-            "source": "App Store Review",
+            "text": "Why am I keep getting 'we are having technical difficulties …' whenever I look at my existing option position?",
+            "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -580,26 +610,56 @@
     "appRating": 2.4,
     "signals": {
       "aiCxInvestment": {
-        "score": 50,
+        "score": 65,
         "weight": 0.3,
         "evidence": [
           {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
+            "text": "the risks related to the development, implementation, use and management of emerging technologies, including artificial intelligence and machine learning",
+            "source": "SEC Filing 10-Q",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+            "date": "2025-10-31"
+          },
+          {
+            "text": "noninterest expense increased $874 million to $17.2 billion and $1.4 billion to $35.0 billion for the three and six months ended June 30, 2025 compared to the same periods in 2024. The increases were primarily driven by continued investments in the business, including people, operations and technology",
+            "source": "SEC Filing 10-Q",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+            "date": "2025-07-31"
+          },
+          {
+            "text": "Active digital banking users (in thousands) 49,198 compared to 47,830 in prior year",
+            "source": "SEC Filing 10-Q",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+            "date": "2025-10-31"
+          },
+          {
+            "text": "Active mobile banking users increased approximately two million, reflecting client growth and continuing changes in our clients banking preferences",
+            "source": "SEC Filing 10-Q",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+            "date": "2025-07-31"
           }
         ]
       },
       "newMarkets": {
-        "score": 50,
+        "score": 45,
         "weight": 0.2,
         "evidence": [
           {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
+            "text": "we served clients through operations across the U.S., its territories and more than 35 countries and/or jurisdictions",
+            "source": "SEC Filing 10-Q",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+            "date": "2025-10-31"
+          },
+          {
+            "text": "We had a net decrease of 92 financial centers and an increase of 20 ATMs as we continued to optimize our consumer banking network",
+            "source": "SEC Filing 10-Q",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+            "date": "2025-10-31"
+          },
+          {
+            "text": "We had a net decrease of 122 financial centers and 68 ATMs as we continued to optimize our consumer banking network",
+            "source": "SEC Filing 10-Q",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+            "date": "2025-07-31"
           }
         ]
       },
@@ -628,7 +688,7 @@
         ]
       },
       "cxIndicators": {
-        "score": 95,
+        "score": 85,
         "weight": 0.15,
         "evidence": [
           {
@@ -638,20 +698,20 @@
             "date": "2026-02-01"
           },
           {
-            "text": "App won't open after Jan 2026 update: Since the most recent update, the app gets an error before even allowing one to login. Despite removing and reinstalling, the app is still completely unusable since it won't even allow a login.",
-            "source": "App Store Reviews",
+            "text": "Since the most recent update, the app gets an error before even allowing one to login. Despite removing and reinstalling, the app is still completely unusable since it won't even allow a login",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "App is broken: Every time I attempt to log in on the mobile app now it's forces me through the password changing process. Even if I change it, close it, I have to change it again and I am never able to actually see any of my banking information.",
-            "source": "App Store Reviews",
+            "text": "It's 2026 and you can't transfer money to an external account on the app without going to a browser or desktop. Most banking apps do this. Pathetic really considering this is BofA",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "Subpar banking app: It's 2026 and you can't transfer money to an external account on the app without going to a browser or desktop. Most banking apps do this. Pathetic really considering this is BofA.",
-            "source": "App Store Reviews",
+            "text": "Bank of America has been de-prioritizing customer service for decades. It makes sense that their new AI assistant has rendered their already unusable, and deliberately unhelpful app to new and exciting levels of ineptitude",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -672,14 +732,26 @@
     "appRating": 2.6,
     "signals": {
       "aiCxInvestment": {
-        "score": 50,
+        "score": 70,
         "weight": 0.3,
         "evidence": [
           {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
+            "text": "The development and adoption of artificial intelligence (\"AI\"), including generative artificial intelligence ( Generative AI ), and its use and anticipated use by us or by third parties on whom we rely",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777425000178/pru-20250930.htm",
+            "date": "2025-02-13"
+          },
+          {
+            "text": "Regulatory standards relating to the use of artificial intelligence ( AI ) are evolving in the countries where we do business, and may increase risks associated with bias, unfair discrimination, transparency, and information security",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777425000178/pru-20250930.htm",
+            "date": "2025-02-13"
+          },
+          {
+            "text": "The application of existing law and introduction of new or revised laws and regulations may require changes in our operations, increased compliance costs and reduce benefits from our adoption of artificial intelligence technologies",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777425000178/pru-20250930.htm",
+            "date": "2025-02-13"
           }
         ]
       },
@@ -731,19 +803,19 @@
           },
           {
             "text": "I try to login and it keep failing to connect",
-            "source": "App Store Review",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "I have tried everything and I cant get the app to work. Unable to connect to authentication service.",
-            "source": "App Store Review",
+            "text": "I have tried everything and I cant get the app to work. Unable to connect to authentication service",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
             "text": "This app does not let you file a claim",
-            "source": "App Store Review",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -759,19 +831,25 @@
     "ticker": "HUM",
     "sector": "insurance",
     "country": "US",
-    "score": 50,
+    "score": 51,
     "tier": "medium",
-    "appRating": 2.8,
+    "appRating": 2.7,
     "signals": {
       "aiCxInvestment": {
-        "score": 50,
+        "score": 55,
         "weight": 0.3,
         "evidence": [
           {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
+            "text": "systems require an ongoing commitment of significant resources to maintain, protect, and enhance existing systems and develop and integrate new systems, including systems powered by or incorporating artificial intelligence and machine learning (including generative AI) (AI/ML)",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/49071/000004907125000057/hum-20250930.htm",
+            "date": "2025-02-20"
+          },
+          {
+            "text": "Stock-based compensation $193 million for 2025 vs $153 million for 2024",
+            "source": "10-Q",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/49071/000004907125000057/hum-20250930.htm",
+            "date": "2025-11-05"
           }
         ]
       },
@@ -800,14 +878,20 @@
         ]
       },
       "leadershipChanges": {
-        "score": 50,
+        "score": 85,
         "weight": 0.15,
         "evidence": [
           {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
+            "text": "Mr. Dintenfass also served as Fidelity's Chief Marketing Officer and Head of Customer Experience Design. Before Fidelity, Mr. Dintenfass spent over five years at Bank of America in a variety of strategy and marketing roles",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/49071/000004907125000057/hum-20250930.htm",
+            "date": "2025-02-20"
+          },
+          {
+            "text": "Executive Vice President, Head of Product and Emerging Segments, leading a P&L portfolio across retail and workplace investing",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/49071/000004907125000057/hum-20250930.htm",
+            "date": "2025-02-20"
           }
         ]
       },
@@ -816,26 +900,26 @@
         "weight": 0.15,
         "evidence": [
           {
-            "text": "Average Rating: 2.8/5 (49 recent reviews)",
+            "text": "Average Rating: 2.7/5 (49 recent reviews)",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "OTC process is weak: Have to hunt for finding stores and eligible products. No clear camera bar code scan option",
-            "source": "App Store Reviews",
+            "text": "A total waste of time, frustration and I wish I could give ZERO stars",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "App is useless: Can't find anything I want, including in-network providers.",
-            "source": "App Store Reviews",
+            "text": "App is useless for me right now",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "I can't find year end summary; can't find out if an optometrist is in network; can't find out if my letter of necessity has been received. App is useless for me right now",
-            "source": "App Store Reviews",
+            "text": "Can't find anything I want, including in-network providers",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -856,14 +940,32 @@
     "appRating": 2.9,
     "signals": {
       "aiCxInvestment": {
-        "score": 50,
+        "score": 75,
         "weight": 0.3,
         "evidence": [
           {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
+            "text": "our Chief Digital and Technology Officer has experience leading enterprise digital transformation efforts for a large multinational corporation and held several leadership and growth positions at a global technology consulting and services firm",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000305/unh-20250930.htm",
+            "date": "2025-02-27"
+          },
+          {
+            "text": "We anticipate that fast-evolving AI/ML technologies, including generative AI, will play an increasingly important role in our information systems and customer-facing technology products",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000305/unh-20250930.htm",
+            "date": "2025-02-27"
+          },
+          {
+            "text": "require new and enhanced technologies, including more sophisticated applications for mobile devices and new tools and products that leverage AI/ML to improve the customer experience",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000305/unh-20250930.htm",
+            "date": "2025-02-27"
+          },
+          {
+            "text": "systems powered by or incorporating artificial intelligence and machine learning (AI/ML)",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000305/unh-20250930.htm",
+            "date": "2025-02-27"
           }
         ]
       },
@@ -880,26 +982,38 @@
         ]
       },
       "newProducts": {
-        "score": 50,
+        "score": 65,
         "weight": 0.2,
         "evidence": [
           {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
+            "text": "Products are also offered through agents, employer groups and digital channels",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000305/unh-20250930.htm",
+            "date": "2025-02-27"
+          },
+          {
+            "text": "new and enhanced technologies, including more sophisticated applications for mobile devices and new tools and products that leverage AI/ML",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000305/unh-20250930.htm",
+            "date": "2025-02-27"
           }
         ]
       },
       "leadershipChanges": {
-        "score": 50,
+        "score": 70,
         "weight": 0.15,
         "evidence": [
           {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
+            "text": "Chief Digital and Technology Officer has experience leading enterprise digital transformation efforts for a large multinational corporation",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000305/unh-20250930.htm",
+            "date": "2025-02-27"
+          },
+          {
+            "text": "Chief Security Officer has more than 30 years of experience as a security professional",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000305/unh-20250930.htm",
+            "date": "2025-02-27"
           }
         ]
       },
@@ -914,20 +1028,20 @@
             "date": "2026-02-01"
           },
           {
-            "text": "Every time I get to my cart there is always an issue! Every month I go through the same thing. It changes prices and availability. I am so tired of this nonsense. It takes an hour to finally get the order to submit.",
-            "source": "App Store Reviews",
+            "text": "The chat isn't working",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "Manual login every time: Every time I need to enter my credentials. Faceid never works for me. FACEID is basic feature with any app. Not sure UHC can't handle faceid at all",
-            "source": "App Store Reviews",
+            "text": "Every time I get to my cart there is always an issue! Every month I go through the same thing. It changes prices and availability. I am so tired of this nonsense",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "DENIAL OF COVERAGE FOR 6 DAY SERIOUS HOSPITAL STAY‼️ I WILL NOT RENEW MY MEMBERSHIP WITH UHC NEXT FALL 2026 FOR 2027‼️I will advise everybody I know to reject any and all Medicare Advantage proposals made by UHC‼️",
-            "source": "App Store Reviews",
+            "text": "Manual login every time - Every time I need to enter my credentials. Faceid never works for me",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -943,19 +1057,37 @@
     "ticker": "ELV",
     "sector": "insurance",
     "country": "US",
-    "score": 44,
+    "score": 46,
     "tier": "medium",
-    "appRating": 3.1,
+    "appRating": 3,
     "signals": {
       "aiCxInvestment": {
-        "score": 50,
+        "score": 70,
         "weight": 0.3,
         "evidence": [
           {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
+            "text": "failure of our information systems or technology, including artificial intelligence, to operate as intended",
+            "source": "10-Q Filed: 2025-10-21",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1156039/000115603925000136/elv-20250930.htm",
+            "date": "2025-10-21"
+          },
+          {
+            "text": "our Responsible Artificial Intelligence ( RAI ) Program, led by our Chief Digital Information Officer",
+            "source": "10-K Filed: 2025-02-20",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1156039/000115603925000136/elv-20250930.htm",
+            "date": "2025-02-20"
+          },
+          {
+            "text": "We anticipate that fast-evolving AI technologies will play an increasingly significant role in our information systems and technology products",
+            "source": "10-K Filed: 2025-02-20",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1156039/000115603925000136/elv-20250930.htm",
+            "date": "2025-02-20"
+          },
+          {
+            "text": "failure to effectively maintain and modernize our information systems",
+            "source": "10-K Filed: 2025-02-20",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1156039/000115603925000136/elv-20250930.htm",
+            "date": "2025-02-20"
           }
         ]
       },
@@ -1000,7 +1132,13 @@
         "weight": 0.15,
         "evidence": [
           {
-            "text": "Average Rating: 3.1/5 (49 recent reviews)",
+            "text": "Average Rating: 3/5 (49 recent reviews)",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Nagivating the app is confusing. No clear way to get to certain sections. I have to use the bot to get to certain pages",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
@@ -1012,13 +1150,7 @@
             "date": "2026-02-01"
           },
           {
-            "text": "Cannot login to my account for weeks now",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Need to find an urgent care that covers me, and according to this app, no urgent cares in the country take my insurance. The map feature just seems to be completely broken",
+            "text": "Finding care doesn't work. Need to find an urgent care that covers me, and according to this app, no urgent cares in the country take my insurance. The map feature just seems to be completely broken",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
@@ -1040,14 +1172,26 @@
     "appRating": 3.2,
     "signals": {
       "aiCxInvestment": {
-        "score": 50,
+        "score": 70,
         "weight": 0.3,
         "evidence": [
           {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
+            "text": "Examples include expanded use of cloud computing, artificial intelligence (AI) and machine learning, biometric authentication, voice and natural language, data protection enhancements and increased online and mobile device interaction with customers",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/713676/000071367625000132/pnc-20250930.htm",
+            "date": "2025-02-21"
+          },
+          {
+            "text": "We are seeking to automate functions previously performed manually, facilitate the ability of customers to engage in financial transactions and otherwise enhance the customer experience with respect to our products and services. This effort has involved and is likely to continue to involve the expenditure of considerable amounts of funds and other resources",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/713676/000071367625000132/pnc-20250930.htm",
+            "date": "2025-02-21"
+          },
+          {
+            "text": "The Technology Committee meets no less than quarterly, and its purpose is to (i) assist the Board with the oversight of technology strategy and significant technology initiatives and programs, including those that can position the use of technology to drive strategic advantages",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/713676/000071367625000132/pnc-20250930.htm",
+            "date": "2025-02-21"
           }
         ]
       },
@@ -1064,14 +1208,20 @@
         ]
       },
       "newProducts": {
-        "score": 50,
+        "score": 60,
         "weight": 0.2,
         "evidence": [
           {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
+            "text": "Retail Banking continues to enhance the customer experience with refinements to product and service offerings that drive value for consumers and small businesses, including our new PNC Cash Unlimited credit card",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/713676/000071367625000132/pnc-20250930.htm",
+            "date": "2025-02-21"
+          },
+          {
+            "text": "Retail Banking continues to enhance the customer experience with refinements to product and service offerings that drive value for consumers and small businesses",
+            "source": "10-Q",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/713676/000071367625000132/pnc-20250930.htm",
+            "date": "2025-11-03"
           }
         ]
       },
@@ -1099,19 +1249,19 @@
           },
           {
             "text": "App has stopped working! Won't let me log in!",
-            "source": "App Store Review",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "About 2 months ago the app completely quit working. It's up to date and I'm just waiting for a new update to hopefully fix this issue at this point.",
-            "source": "App Store Review",
+            "text": "About 2 months ago the app completely quit working. It's up to date and I'm just waiting for a new update to hopefully fix this issue at this point",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "Please fix the issue with the App not moving past the login screen! It was working fine until I hit update.",
-            "source": "App Store Review",
+            "text": "Doesn't Work After Updating app… Please fix the issue with the App not moving past the login screen! It was working fine until I hit update",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -1156,26 +1306,14 @@
         ]
       },
       "newProducts": {
-        "score": 75,
+        "score": 50,
         "weight": 0.2,
         "evidence": [
           {
-            "text": "New version is useless….it will will not load. Now I cannot get into my bank account. App needs to be fixed! This has been like this since the new update occurred! FIX IT!!!",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "New update keeps crashing app - Just updated to newest version and can sign in without an issue. But when I try to click on anything in the app, it crashes.",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "The latest version has caused the 'table of contents', (ie: if you tap the top left 'three bars') on the home page, to not display properly on my iPad. This has never happened before.",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
           }
         ]
       },
@@ -1202,19 +1340,19 @@
             "date": "2026-02-01"
           },
           {
-            "text": "New version is useless….it will will not load. Now I cannot get into my bank account. This has been like this for weeks! Get your act together!",
+            "text": "New version is useless….it will will not load. Now I cannot get into my bank account. App needs to be fixed! Totally useless app. This has been like this for weeks!",
             "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "Cannot get online as need code. Cannot receive code as phone number no longer valid. Cannot change phone number as cannot get online to change, and cannot contact TD America for help as they 'are busy'. Have waited hours for callback.",
+            "text": "New update keeps crashing app - Just updated to newest version and can sign in without an issue. But when I try to click on anything in the app, it crashes.",
             "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "The customer service in usa (dial 0) very rude, and crisis. Unacceptable, don't know why those can be work in the big bank make very bag image to the bank.",
+            "text": "Cannot get online as need code. Cannot receive code as phone number no longer valid. Cannot change phone number as cannot get online to change, and cannot receive code to get online to change number.",
             "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
@@ -1231,19 +1369,171 @@
     "ticker": "COF",
     "sector": "bank",
     "country": "US",
-    "score": 30,
+    "score": 28,
     "tier": "lower",
-    "appRating": 3.9,
+    "appRating": 4,
     "signals": {
       "aiCxInvestment": {
-        "score": 50,
+        "score": 75,
         "weight": 0.3,
         "evidence": [
           {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
+            "text": "the use, reliability, and accuracy of the models, artificial intelligence ( AI ), and data on which we rely",
+            "source": "10-Q",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/927628/000092762825000276/cof-20250930.htm",
+            "date": "2025-11-03"
+          },
+          {
+            "text": "We continue to invest in digital technology designed to attract new customers, facilitate the ability of existing customers to conduct financial transactions and enhance the customer experience related to our products and services",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/927628/000092762825000276/cof-20250930.htm",
+            "date": "2025-02-20"
+          },
+          {
+            "text": "financial institutions are rapidly introducing new digital and other technology-driven products and services that aim to offer a better customer experience and to reduce costs",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/927628/000092762825000276/cof-20250930.htm",
+            "date": "2025-02-20"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 85,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "On May 18, 2025 (the Closing Date ), Discover Financial Services ( Discover ) merged into Capital One and Discover Bank merged",
+            "source": "10-Q",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/927628/000092762825000276/cof-20250930.htm",
+            "date": "2025-11-03"
+          },
+          {
+            "text": "through the acquisition of Discover, we acquired new products including personal loans as well as the Discover Network, the PULSE Network, Diners Club International ( Diners Club ) and Net",
+            "source": "10-Q",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/927628/000092762825000276/cof-20250930.htm",
+            "date": "2025-11-03"
+          },
+          {
+            "text": "As one of the nation s largest banks based on deposits as of September 30, 2025",
+            "source": "10-Q",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/927628/000092762825000276/cof-20250930.htm",
+            "date": "2025-11-03"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 80,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "through the acquisition of Discover, we acquired new products including personal loans as well as the Discover Network, the PULSE Network, Diners Club International ( Diners Club ) and Net",
+            "source": "10-Q",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/927628/000092762825000276/cof-20250930.htm",
+            "date": "2025-11-03"
+          },
+          {
+            "text": "the increased use of and reliance on digital banking products and other digital services, including mobile banking products, such as mobile payments, and other internet- and cloud-based products and applications",
+            "source": "10-Q",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/927628/000092762825000276/cof-20250930.htm",
+            "date": "2025-07-31"
+          },
+          {
+            "text": "We continue to invest in digital technology designed to attract new customers, facilitate the ability of existing customers to conduct financial transactions",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/927628/000092762825000276/cof-20250930.htm",
+            "date": "2025-02-20"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 60,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "reviews our technology strategy with the Chief Information Officer ( CIO ); reviews our cybersecurity program with the Chief Information Security Officer ( CISO ) and the Chief Technology Risk Officer ( CTRO )",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/927628/000092762825000276/cof-20250930.htm",
+            "date": "2025-02-20"
+          },
+          {
+            "text": "The Chief Operational Risk Officer, in collaboration with the CTRO, is responsible for establishing and overseeing our Operational Risk Management Program",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/927628/000092762825000276/cof-20250930.htm",
+            "date": "2025-02-20"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 70,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Average Rating: 4/5 (49 recent reviews)",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "This app recently has been giving me a ton of issues. I'll sign into my account and it says I've 'tried to log in too many times'… after one try???",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Too many ads... Cant even check balance without declining something",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Capital one is the worst credit card company I had over 15 years with 3 capital one credit card and they closed all 3 cards for no reason",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "cigna",
+    "name": "Cigna",
+    "ticker": "CI",
+    "sector": "insurance",
+    "country": "US",
+    "score": 28,
+    "tier": "lower",
+    "appRating": 4,
+    "signals": {
+      "aiCxInvestment": {
+        "score": 75,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "At The Cigna Group, we use artificial intelligence (\"AI\") to support health care transformation by helping to enable the next generation of accessible, effective, affordable and enhanced health care solutions. AI models can facilitate personalized solutions for individuals, inform earlier interventions and simplify health care experiences.",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1739940/000173994025000037/ci-20250930.htm",
+            "date": "2025-02-27"
+          },
+          {
+            "text": "risks related to our use of artificial intelligence and machine learning",
+            "source": "10-Q",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1739940/000173994025000037/ci-20250930.htm",
+            "date": "2025-10-30"
+          },
+          {
+            "text": "Our information technology strategy and execution are critical to our continued success. We must continue to invest in and maintain long-term solutions that will enable us to anticipate customer needs and expectations, enhance the customer experience, act as a differentiator in the market, and protect against cybersecurity risks",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1739940/000173994025000037/ci-20250930.htm",
+            "date": "2025-02-27"
+          },
+          {
+            "text": "Chief Information and Digital Officer at Hilton Worldwide Holdings from March 2018 until August 2020",
+            "source": "10-K",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1739940/000173994025000037/ci-20250930.htm",
+            "date": "2025-02-27"
           }
         ]
       },
@@ -1284,30 +1574,30 @@
         ]
       },
       "cxIndicators": {
-        "score": 75,
+        "score": 85,
         "weight": 0.15,
         "evidence": [
           {
-            "text": "Average Rating: 3.9/5 (49 recent reviews)",
-            "source": "App Store Data",
+            "text": "No result is shown in find care. Whatever I search, it just shows a spinner.",
+            "source": "App Store",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "Trying to make a purchase and my card keeps getting declined. On the phone with fraud department and the same issue with card declined. Very frustrating customer when I'm acknowledging the transaction but my card is still declined.",
-            "source": "App Store Reviews",
+            "text": "Loads and loads on doctor search",
+            "source": "App Store",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "The screen for my credit card is always laggy. All other parts of the app work perfectly though.",
-            "source": "App Store Reviews",
+            "text": "crashes when trying to check out.. also the request home delivery screen is too big for the screen and you cannot scroll down to set it up.. so frustrating, please fix all these issues!",
+            "source": "App Store",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "You might want to make it iOS 16 compatible. Lots of people, including myself, are still using older apple devices, like iPad Pro or Air. Limiting this to iOS 17 is not really caring about your customers.",
-            "source": "App Store Reviews",
+            "text": "This application is impossible. It is hard to get into. Passwords have to be constantly changed & the app shuts down telling you something went wrong. Something always goes wrong! You CANNOT look for doctors easily. Nothing is easy on this app",
+            "source": "App Store",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -1323,19 +1613,37 @@
     "ticker": "GS",
     "sector": "bank",
     "country": "US",
-    "score": 28,
+    "score": 26,
     "tier": "lower",
-    "appRating": 4,
+    "appRating": 4.1,
     "signals": {
       "aiCxInvestment": {
-        "score": 50,
+        "score": 75,
         "weight": 0.3,
         "evidence": [
           {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
+            "text": "the Firmwide Artificial Intelligence Risk and Controls Committee, which oversees risks associated with the use of artificial intelligence (AI), reports to the Firmwide Technology Risk Committee",
+            "source": "10-Q Filed 2025-10-31",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/886982/000088698225001411/gs-20250930.htm",
+            "date": "2025-10-31"
+          },
+          {
+            "text": "The Digital Risk Office Steering Group oversees Engineering risk decisions, monitors control performance and reviews approaches to comply with current and emerging re...",
+            "source": "10-Q Filed 2025-10-31",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/886982/000088698225001411/gs-20250930.htm",
+            "date": "2025-10-31"
+          },
+          {
+            "text": "the opportunities and challenges presented by artificial intelligence (AI)",
+            "source": "10-K Filed 2025-02-27",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/886982/000088698225001411/gs-20250930.htm",
+            "date": "2025-02-27"
+          },
+          {
+            "text": "In addition, in 2024, the E.U. Artificial Intelligence Act (E.U. AI Act) became effective. Certain provisions of the E.U. AI Act apply from February 2025, with other provisions applying between August 2025 and August 2027",
+            "source": "10-K Filed 2025-02-27",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/886982/000088698225001411/gs-20250930.htm",
+            "date": "2025-02-27"
           }
         ]
       },
@@ -1380,117 +1688,25 @@
         "weight": 0.15,
         "evidence": [
           {
-            "text": "Average Rating: 4/5 (49 recent reviews)",
+            "text": "Average Rating: 4.1/5 (49 recent reviews)",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
             "text": "Very poor user interface! The Marcus app is slow and clunky. On the positive side, there's lots of room for improvement!!",
-            "source": "App Store Review",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
             "text": "January 2026-Will not open until updated - I'll always give 1 star to an app that it's unusable until you update it. I should be able to see my balance no matter what.",
-            "source": "App Store Review",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "Horrible customer service and very rude call center team",
-            "source": "App Store Review",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          }
-        ]
-      }
-    },
-    "executives": [],
-    "lastUpdated": "2026-02-05"
-  },
-  {
-    "id": "cigna",
-    "name": "Cigna",
-    "ticker": "CI",
-    "sector": "insurance",
-    "country": "US",
-    "score": 28,
-    "tier": "lower",
-    "appRating": 4,
-    "signals": {
-      "aiCxInvestment": {
-        "score": 50,
-        "weight": 0.3,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newMarkets": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newProducts": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "leadershipChanges": {
-        "score": 50,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "cxIndicators": {
-        "score": 75,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "App crashes when I try to checkout from the prescription cart",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "This application is impossible. It is hard to get into. Passwords have to be constantly changed & the app shuts down telling you something went wrong",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "No longer tracks steps from apple health ap",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Average Rating: 4/5",
+            "text": "It's 2026 - should be able to Zelle!",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
@@ -1512,14 +1728,32 @@
     "appRating": 4.2,
     "signals": {
       "aiCxInvestment": {
-        "score": 50,
+        "score": 85,
         "weight": 0.3,
         "evidence": [
           {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
+            "text": "advances in artificial intelligence, such as the use of machine learning, generative artificial intelligence and quantum computing by malicious actors to develop more advanced social engineering attacks",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+            "date": "2025-02-14"
+          },
+          {
+            "text": "The models and estimations that JPMorganChase uses, including those that use machine learning or artificial intelligence, may not be effective in all cases to identify, observe and mitigate risk",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+            "date": "2025-02-14"
+          },
+          {
+            "text": "The Firm uses models and other analytical and judgment-based estimations, including those based upon machine learning or artificial intelligence techniques, across various businesses and functions",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+            "date": "2025-02-14"
+          },
+          {
+            "text": "advances in technology, such as automation and artificial intelligence, may lead to workforce displacement. This could require JPMorganChase to invest in additional employee training",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+            "date": "2025-02-14"
           }
         ]
       },
@@ -1536,20 +1770,20 @@
         ]
       },
       "newProducts": {
-        "score": 75,
+        "score": 65,
         "weight": 0.2,
         "evidence": [
           {
-            "text": "What a great idea to be able to pay in 4 payment after a big purchase. Thank you chase.",
+            "text": "Pay in 4 option. What a great idea to be able to pay in 4 payment after a big purchase. Thank you chase.",
             "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "Every time I try to log into my app… Even if it's to do business outside of my credit card… It comes up with this screen, asking me if I want to split purchases or pay them overtime or something.",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
+            "text": "expansion of its digital banking and other internet-based product offerings and its internal use of internet-based products and applications, including those that use cloud computing services",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+            "date": "2025-02-14"
           }
         ]
       },
@@ -1566,7 +1800,7 @@
         ]
       },
       "cxIndicators": {
-        "score": 70,
+        "score": 25,
         "weight": 0.15,
         "evidence": [
           {
@@ -1576,19 +1810,13 @@
             "date": "2026-02-01"
           },
           {
-            "text": "Horrible $25 for monthly service, from even an ex-employee and account holder since 25+ years. Even though paperless fee is charged. No interest payment on checking plus savings account. No senior discount even. They dont care for seniors, loyal customers.",
+            "text": "Every time I try to log into my app… Even if it's to do business outside of my credit card… It comes up with this screen, asking me if I want to split purchases or pay them overtime or something. It's very annoying",
             "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "It's very annoying because I can't get rid of the screen without hitting the button or somehow activatin",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Chase took over my Washington Mutual account. I once opened a trust account, stated I didn't know when it would be funded. Asked if I need to put some cash in the account to keep it active and was told no. When I deposited funds, the account was closed due to lack of activity.",
+            "text": "Horrible $25 for monthly service, from even an ex-employee and account holder since 25+ years. Even though paperless fee is charged. No interest payment on checking plus savings account.",
             "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
@@ -1605,19 +1833,31 @@
     "ticker": "WFC",
     "sector": "bank",
     "country": "US",
-    "score": 17,
+    "score": 15,
     "tier": "lower",
-    "appRating": 4.6,
+    "appRating": 4.7,
     "signals": {
       "aiCxInvestment": {
-        "score": 50,
+        "score": 55,
         "weight": 0.3,
         "evidence": [
           {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
+            "text": "higher technology, telecommunications and equipment expense",
+            "source": "10-Q Filed 2025-08-05",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000253/wfc-20250930.htm",
+            "date": "2025-08-05"
+          },
+          {
+            "text": "The rule will require the Company to update its technology systems, compliance, third-party risk management programs, and digital channels",
+            "source": "10-K Filed 2025-02-25",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000253/wfc-20250930.htm",
+            "date": "2025-02-25"
+          },
+          {
+            "text": "During 2024, we invested approximately $200 million in a variety of employee learning and development programs",
+            "source": "10-K Filed 2025-02-25",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000253/wfc-20250930.htm",
+            "date": "2025-02-25"
           }
         ]
       },
@@ -1658,30 +1898,30 @@
         ]
       },
       "cxIndicators": {
-        "score": 20,
+        "score": 25,
         "weight": 0.15,
         "evidence": [
           {
-            "text": "Average Rating: 4.6/5 (49 recent reviews)",
+            "text": "Average Rating: 4.7/5 (49 recent reviews)",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "This is a great financial app. It is intuitive and well designed. Navigation is easy",
-            "source": "App Store Reviews",
+            "text": "This is a great financial app. It is intuitive and well designed. Navigation is easy and I can do 95% of what I need on the app",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "App makes it so easy to do all my bank online",
-            "source": "App Store Reviews",
+            "text": "The user interface is really nice. Very convenient",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "The app is accessible, using ScreenReader software for the blind. They have done a really good job with the app",
-            "source": "App Store Reviews",
+            "text": "Horrible horrible horrible - This bank is horrible and is firing everyone from CA cause they don't want to pay. Take your money out",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -1697,111 +1937,31 @@
     "ticker": "USB",
     "sector": "bank",
     "country": "US",
-    "score": 15,
-    "tier": "lower",
-    "appRating": 4.7,
-    "signals": {
-      "aiCxInvestment": {
-        "score": 50,
-        "weight": 0.3,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newMarkets": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newProducts": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "leadershipChanges": {
-        "score": 50,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "cxIndicators": {
-        "score": 15,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Average Rating: 4.7/5 (49 recent reviews)",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Love having the app, it makes things so much easier!",
-            "source": "App Store Review",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Simply. Excellent!! I won't go to any other bank. Plain and simple. The best. The best. The best!!!",
-            "source": "App Store Review",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "App is barely usable as it's constantly asks for reviews. Consider banking somewhere else due to app issues.",
-            "source": "App Store Review",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          }
-        ]
-      }
-    },
-    "executives": [],
-    "lastUpdated": "2026-02-05"
-  },
-  {
-    "id": "truist",
-    "name": "Truist Financial",
-    "ticker": "TFC",
-    "sector": "bank",
-    "country": "US",
     "score": 12,
     "tier": "lower",
     "appRating": 4.9,
     "signals": {
       "aiCxInvestment": {
-        "score": 50,
+        "score": 55,
         "weight": 0.3,
         "evidence": [
           {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
+            "text": "Changes in customer behavior and preferences and the ability to implement technological changes to respond to customer needs and meet competitive demands",
+            "source": "10-Q Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/36104/000003610425000064/usb-20250930.htm",
+            "date": "2025-11-05"
+          },
+          {
+            "text": "A significant percentage of consumer transactions are completed using USBNA's digital banking services, both online and through its digital app",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/36104/000003610425000064/usb-20250930.htm",
+            "date": "2025-02-21"
+          },
+          {
+            "text": "Chief Information and Technology Officer since joining the Company in September 2018. From May 2014 until July 2017, he served as Vice President at McKinsey Digital where he helped banks accelerate their digital transformation",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/36104/000003610425000064/usb-20250930.htm",
+            "date": "2025-02-21"
           }
         ]
       },
@@ -1818,14 +1978,20 @@
         ]
       },
       "newProducts": {
-        "score": 50,
+        "score": 52,
         "weight": 0.2,
         "evidence": [
           {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
+            "text": "The Company has introduced and enhanced several learning programs in 2024, including the Product Academy, Foundational Leadership and Skill of the Month. The Company also launched the Skills Academy, a learning platform",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/36104/000003610425000064/usb-20250930.htm",
+            "date": "2025-02-21"
+          },
+          {
+            "text": "diversification in the credit card portfolio is achieved with broad customer relationship distribution through the Company s and financial institution partners branches, retail and affinity partners, and digital channels",
+            "source": "10-Q Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/36104/000003610425000064/usb-20250930.htm",
+            "date": "2025-11-05"
           }
         ]
       },
@@ -1852,6 +2018,128 @@
             "date": "2026-02-01"
           },
           {
+            "text": "This is a great app that keeps me informed on what's going on with my accounts and allows me to bank very conveniently!",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Lots of great features, and they actually all WORK! Rare!!!",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "truist",
+    "name": "Truist Financial",
+    "ticker": "TFC",
+    "sector": "bank",
+    "country": "US",
+    "score": 12,
+    "tier": "lower",
+    "appRating": 4.9,
+    "signals": {
+      "aiCxInvestment": {
+        "score": 70,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "investing in talent, technology, and risk infrastructure, maintaining expense, credit, and risk discipline",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/92230/000009223025000157/tfc-20250930.htm",
+            "date": "2025-02-25"
+          },
+          {
+            "text": "our ability to keep pace with changes in technology that affect us or our clients, counterparties, service providers, or competitors or to maintain rights or interests in associated intellectual property",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/92230/000009223025000157/tfc-20250930.htm",
+            "date": "2025-02-25"
+          },
+          {
+            "text": "recent advances in artificial intelligence may make it more difficult to detect fraud",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/92230/000009223025000157/tfc-20250930.htm",
+            "date": "2025-02-25"
+          },
+          {
+            "text": "technology-enabled consumer lending solutions, including point-of-sale offerings",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/92230/000009223025000157/tfc-20250930.htm",
+            "date": "2025-02-25"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 65,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "national indirect lending services providing a comprehensive set of technology-enabled consumer lending solutions, including point-of-sale offerings for autos, recreational vehicles, outdoor power sports, outdoor power equipment, and home improvement",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/92230/000009223025000157/tfc-20250930.htm",
+            "date": "2025-02-25"
+          },
+          {
+            "text": "our ability to develop, maintain, and market our products or services",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/92230/000009223025000157/tfc-20250930.htm",
+            "date": "2025-02-25"
+          },
+          {
+            "text": "activities associated with online and mobile banking",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/92230/000009223025000157/tfc-20250930.htm",
+            "date": "2025-02-25"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 85,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Following the departure of our CISO in November 2024, the CIO is serving as our interim CISO while our search for a permanent CISO continues",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/92230/000009223025000157/tfc-20250930.htm",
+            "date": "2025-02-25"
+          },
+          {
+            "text": "Our CIO has over 25 years of experience leading technology teams at financial institutions",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/92230/000009223025000157/tfc-20250930.htm",
+            "date": "2025-02-25"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 15,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Average Rating: 4.9/5 (49 recent reviews)",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
             "text": "The Truist app is a mature and thorough app. I enjoy using it.",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
@@ -1864,7 +2152,7 @@
             "date": "2026-02-01"
           },
           {
-            "text": "Very dependable and generally easy to use",
+            "text": "The photo capture is frustrating it's very sensitive",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"

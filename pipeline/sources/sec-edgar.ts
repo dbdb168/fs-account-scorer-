@@ -116,7 +116,7 @@ function buildFilingUrl(cik: string, accessionNumber: string, primaryDocument: s
 
 export async function fetchFilingContent(filing: FilingData): Promise<string | null> {
   try {
-    await delay(100); // Rate limiting
+    await delay(200); // Rate limiting - be polite to SEC
 
     const response = await fetch(filing.url, {
       headers: {
@@ -129,13 +129,142 @@ export async function fetchFilingContent(filing: FilingData): Promise<string | n
       return null;
     }
 
-    const content = await response.text();
+    const html = await response.text();
 
-    // Extract text content (strip HTML if present)
-    // For 10-K/10-Q, we want the MD&A and Risk Factors sections
-    return content;
+    // Extract text and find relevant sections
+    const text = stripHtmlTags(html);
+    const sections = extractRelevantSections(text, filing.filingType);
+
+    if (sections) {
+      console.log(`  Extracted ${sections.length} chars from ${filing.filingType}`);
+      return sections;
+    }
+
+    return null;
   } catch (error) {
     console.error(`Error fetching filing content:`, error);
     return null;
   }
+}
+
+function stripHtmlTags(html: string): string {
+  // Remove script and style tags entirely
+  let text = html.replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '');
+  text = text.replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '');
+
+  // Replace common HTML entities
+  text = text.replace(/&nbsp;/g, ' ');
+  text = text.replace(/&amp;/g, '&');
+  text = text.replace(/&lt;/g, '<');
+  text = text.replace(/&gt;/g, '>');
+  text = text.replace(/&quot;/g, '"');
+  text = text.replace(/&#\d+;/g, ' ');
+
+  // Remove all HTML tags
+  text = text.replace(/<[^>]+>/g, ' ');
+
+  // Normalize whitespace
+  text = text.replace(/\s+/g, ' ').trim();
+
+  return text;
+}
+
+function extractRelevantSections(text: string, filingType: string): string | null {
+  const sections: string[] = [];
+
+  // Common section headers in 10-K/10-Q filings
+  const mdaPatterns = [
+    /MANAGEMENT['']?S DISCUSSION AND ANALYSIS/i,
+    /MD&A/i,
+    /ITEM 7[.\s]/i,
+    /ITEM 2[.\s].*MANAGEMENT/i,
+  ];
+
+  const riskPatterns = [
+    /RISK FACTORS/i,
+    /ITEM 1A[.\s]/i,
+  ];
+
+  const digitalPatterns = [
+    /DIGITAL TRANSFORMATION/i,
+    /TECHNOLOGY STRATEGY/i,
+    /ARTIFICIAL INTELLIGENCE/i,
+    /CUSTOMER EXPERIENCE/i,
+    /MOBILE BANKING/i,
+    /DIGITAL CHANNELS/i,
+  ];
+
+  // Extract MD&A section (usually Item 7 in 10-K, Item 2 in 10-Q)
+  const mdaSection = extractSection(text, mdaPatterns, 15000);
+  if (mdaSection) {
+    sections.push(`[MD&A SECTION]\n${mdaSection}`);
+  }
+
+  // Extract Risk Factors (Item 1A)
+  const riskSection = extractSection(text, riskPatterns, 10000);
+  if (riskSection) {
+    sections.push(`[RISK FACTORS]\n${riskSection}`);
+  }
+
+  // Also search for digital/technology specific paragraphs throughout
+  const digitalMentions = extractDigitalMentions(text, digitalPatterns, 5000);
+  if (digitalMentions) {
+    sections.push(`[DIGITAL/TECHNOLOGY MENTIONS]\n${digitalMentions}`);
+  }
+
+  if (sections.length === 0) {
+    // Fallback: just get first 10000 chars as sample
+    return text.slice(0, 10000);
+  }
+
+  return sections.join('\n\n---\n\n');
+}
+
+function extractSection(text: string, patterns: RegExp[], maxLength: number): string | null {
+  for (const pattern of patterns) {
+    const match = text.match(pattern);
+    if (match && match.index !== undefined) {
+      // Get text starting from this section
+      const start = match.index;
+      const sectionText = text.slice(start, start + maxLength);
+
+      // Try to find a natural end point (next major section)
+      const endPatterns = [/ITEM \d/i, /PART [IV]+/i, /SIGNATURES/i];
+      let endIndex = sectionText.length;
+
+      for (const endPattern of endPatterns) {
+        const endMatch = sectionText.slice(500).match(endPattern); // Skip first 500 chars
+        if (endMatch && endMatch.index !== undefined) {
+          endIndex = Math.min(endIndex, 500 + endMatch.index);
+        }
+      }
+
+      return sectionText.slice(0, endIndex).trim();
+    }
+  }
+  return null;
+}
+
+function extractDigitalMentions(text: string, patterns: RegExp[], maxLength: number): string | null {
+  const mentions: string[] = [];
+  let totalLength = 0;
+
+  for (const pattern of patterns) {
+    const regex = new RegExp(pattern.source, 'gi');
+    let match;
+
+    while ((match = regex.exec(text)) !== null && totalLength < maxLength) {
+      // Get surrounding context (200 chars before and after)
+      const start = Math.max(0, match.index - 200);
+      const end = Math.min(text.length, match.index + match[0].length + 300);
+      const context = text.slice(start, end).trim();
+
+      if (!mentions.some(m => m.includes(context.slice(50, 150)))) {
+        mentions.push(`...${context}...`);
+        totalLength += context.length;
+      }
+    }
+  }
+
+  return mentions.length > 0 ? mentions.join('\n\n') : null;
 }

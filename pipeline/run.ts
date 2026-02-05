@@ -18,7 +18,7 @@ import * as fs from "fs";
 import * as path from "path";
 import { fileURLToPath } from "url";
 import { COMPANIES, SIGNAL_WEIGHTS, type CompanyConfig } from "./config.js";
-import { fetchSECFilings, type FilingData } from "./sources/sec-edgar.js";
+import { fetchSECFilings, fetchFilingContent, type FilingData } from "./sources/sec-edgar.js";
 import {
   fetchEarningsTranscripts,
   fetchPressReleases,
@@ -84,6 +84,17 @@ async function processCompany(
   ]);
 
   console.log(`Data collected: ${secFilings.length} SEC filings, ${transcripts.length} transcripts, ${pressReleases.length} press releases`);
+
+  // Fetch actual SEC filing content (for US companies)
+  if (secFilings.length > 0) {
+    console.log(`Fetching SEC filing content...`);
+    for (const filing of secFilings) {
+      const content = await fetchFilingContent(filing);
+      if (content) {
+        filing.content = content;
+      }
+    }
+  }
 
   // Get app rating for primary scoring
   const appRating = appStoreData?.averageRating ?? null;

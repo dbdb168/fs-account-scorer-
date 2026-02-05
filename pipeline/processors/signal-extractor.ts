@@ -169,11 +169,21 @@ function prepareDataSummary(companyName: string, ticker: string, rawData: RawDat
     }
   }
 
-  // SEC filings (just metadata, content is too large)
+  // SEC filings with extracted content
   if (rawData.secFilings.length > 0) {
     sections.push("## SEC FILINGS\n");
     for (const f of rawData.secFilings) {
-      sections.push(`- ${f.filingType} filed ${f.filingDate}: ${f.url}\n`);
+      sections.push(`### ${f.filingType} (Filed: ${f.filingDate})\n`);
+      sections.push(`Source: ${f.url}\n\n`);
+      if (f.content) {
+        // Truncate if too long to fit in context
+        const content = f.content.length > 20000
+          ? f.content.slice(0, 20000) + "\n...[truncated]"
+          : f.content;
+        sections.push(content + "\n");
+      } else {
+        sections.push("(Content not available)\n");
+      }
     }
   }
 
