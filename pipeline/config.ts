@@ -96,7 +96,7 @@ export const COMPANIES: CompanyConfig[] = [
     sector: "bank",
     country: "US",
     cik: "0000036104",
-    appStoreId: "365629561", // U.S. Bank Mobile
+    appStoreId: "458734623", // U.S. Bank Mobile Banking
     domain: "usbank.com",
   },
   {

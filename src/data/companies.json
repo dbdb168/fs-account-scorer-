@@ -69,19 +69,19 @@
           },
           {
             "text": "When I try to find a provider, it tells me the system is updating and try again in 1-2 hours. I've been trying for two weeks.",
-            "source": "App Store Data",
+            "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
             "text": "The app does not work at all. Once you log in, if you try to do anything it'll load for quite some time then says try again.",
-            "source": "App Store Data",
+            "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "It's mind blowing how little this app works. I tap to view my ID card an not a single button works, not even the back button!",
-            "source": "App Store Data",
+            "text": "Every time MetLife updates the app it gets more worthless. The latest update will not even show my claim. The provider locator and procedure estimates don't even appear on the app.",
+            "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -160,20 +160,20 @@
             "date": "2026-02-01"
           },
           {
-            "text": "Terrible design and poor value - The app terrible to navigate, glitches often, and doesn't show relevant information about coverage",
-            "source": "App Store Reviews",
+            "text": "The app terrible to navigate, glitches often, and doesn't show relevant information about coverage. Information is anything but straightforward. Either the app was designed VERY poorly or intentionally to frustrate and deter clients from accessing coverage that they PAY FOR.",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "This App DOESNT WORK - Nothing ever loads, I am forced to use the mobile site",
-            "source": "App Store Reviews",
+            "text": "Nothing ever loads, I am forced to use the mobile site",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "Coverage Tab Freezes App - This critical bug has been present for over two months with no fix, making the app unreliable and frustrating to use",
-            "source": "App Store Reviews",
+            "text": "Coverage Tab Freezes App: Tapping the Coverage tab freezes the app. This critical bug has been present for over two months with no fix, making the app unreliable and frustrating to use.",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -252,19 +252,19 @@
             "date": "2026-02-01"
           },
           {
-            "text": "The app feels very old, the UI is not optimized and it feels like a website, not an app. I am stumbling upon bugs very often. Please work on the design of your app to make it friendly and pleasant to use. I regret already switching banks.",
+            "text": "The app feels very old, the UI is not optimized and it feels like a website, not an app. I am stumbling upon bugs very often.",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "Won't load. Lately, after confirming my Face ID, the app gets stuck on a loading screen. I reinstalled the app and it let me log in a total of one time before getting stuck in the same loop again.",
+            "text": "Won't load - Lately, after confirming my Face ID, the app gets stuck on a loading screen. I reinstalled the app and it let me log in a total of one time before getting stuck in the same loop again.",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "They changed so you can't pay your mortgage on the app anymore, and make you sign in from a pc is the only way. Also etranfers take like 1-2 business day and are not instant like other banking apps. Can't see anything other than balances, making this a useless app.",
+            "text": "This BMO app is down more than it works. Awful.",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
@@ -334,7 +334,7 @@
         ]
       },
       "cxIndicators": {
-        "score": 95,
+        "score": 90,
         "weight": 0.15,
         "evidence": [
           {
@@ -350,13 +350,13 @@
             "date": "2026-02-01"
           },
           {
-            "text": "This app used to be amazing up until they did the big overhaul on it. I hate that I don't just have my claims and balances right up front and center.",
+            "text": "Signing in is next to impossible. Goodluck if you have a new account",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "I have been using sunlife since 3 years. I can login to their website but I have not been able to login to their app since few months. THIS IS THE WORST APP I HAVE USED.",
+            "text": "THIS IS THE WORST APP I HAVE USED.",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
@@ -448,7 +448,7 @@
             "date": "2026-02-01"
           },
           {
-            "text": "For the past month, I haven't been able to enter the amount when using Zelle in the app on my iPhone 12 Pro. The keyboard appears, but the numbers don't register when I type.",
+            "text": "The amount of times I've had to call city support to clear out their false positive on potential fraud makes this app simply unusable. Please fix your algorithms or be better at detecting fraud.",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
@@ -494,24 +494,30 @@
         ]
       },
       "newProducts": {
-        "score": 65,
+        "score": 75,
         "weight": 0.2,
         "evidence": [
           {
-            "text": "The latest upgrade is awful and a step backwards. It lacks basic functionality such as cash balances in each account",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "This last update 6.59.1 is a mess. The stock overview is garbage. You have to decrypt how many shares you have. They took out the flag of origin to replace it with the company's logos",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
             "text": "Much cleaner look, but still no dark mode",
-            "source": "App Store Reviews",
+            "source": "App Store Review",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "The latest upgrade is awful and a step backwards",
+            "source": "App Store Review",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "This last update 6.59.1 is a mess. The stock overview is garbage",
+            "source": "App Store Review",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "clean UI , user friendly, easy to use , great app",
+            "source": "App Store Review",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -541,19 +547,19 @@
           },
           {
             "text": "Cannot login! Always have technical difficulties!! Even after updating the app it still doesn't fix the problem, seriously considering changing to other bank",
-            "source": "App Store Reviews",
+            "source": "App Store Review",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "I can't express how frustrating this app is. The poor performance is for absolutely no reason. To be performing the way RBC mobile does with the advanced technology that we have is embarrassing",
-            "source": "App Store Reviews",
+            "text": "I can't express how frustrating this app is. The poor performance is for absolutely no reason. To be performing the way RBC mobile does with the advanced technology that we have is embarrassing.",
+            "source": "App Store Review",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "Why am I keep getting 'we are having technical difficulties …' whenever I look at my existing option position?",
-            "source": "App Store Reviews",
+            "text": "I can't activate the virtual visa card from the app because keeps sending an error saying 'something went wrong'. I already went to the branch, called for support too and nobody can help me.",
+            "source": "App Store Review",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -632,19 +638,19 @@
             "date": "2026-02-01"
           },
           {
-            "text": "App won't open after Jan 2026 update - Since the most recent update, the app gets an error before even allowing one to login. Despite removing and reinstalling, the app is still completely unusable since it won't even allow a login.",
+            "text": "App won't open after Jan 2026 update: Since the most recent update, the app gets an error before even allowing one to login. Despite removing and reinstalling, the app is still completely unusable since it won't even allow a login.",
             "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "Every time I attempt to log in on the mobile app now it's forces me through the password changing process. Even if I change it, close it, I have to change it again and I am never able to actually see any of my banking information.",
+            "text": "App is broken: Every time I attempt to log in on the mobile app now it's forces me through the password changing process. Even if I change it, close it, I have to change it again and I am never able to actually see any of my banking information.",
             "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "It's 2026 and you can't transfer money to an external account on the app without going to a browser or desktop. Most banking apps do this. Pathetic really considering this is BofA.",
+            "text": "Subpar banking app: It's 2026 and you can't transfer money to an external account on the app without going to a browser or desktop. Most banking apps do this. Pathetic really considering this is BofA.",
             "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
@@ -817,19 +823,19 @@
           },
           {
             "text": "OTC process is weak: Have to hunt for finding stores and eligible products. No clear camera bar code scan option",
-            "source": "App Store Review",
+            "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
             "text": "App is useless: Can't find anything I want, including in-network providers.",
-            "source": "App Store Review",
+            "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "Don't bother: I can't find year end summary; can't find out if an optometrist is in network; can't find out if my letter of necessity has been received. App is useless for me right now",
-            "source": "App Store Review",
+            "text": "I can't find year end summary; can't find out if an optometrist is in network; can't find out if my letter of necessity has been received. App is useless for me right now",
+            "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -1093,19 +1099,19 @@
           },
           {
             "text": "App has stopped working! Won't let me log in!",
-            "source": "App Store Reviews",
+            "source": "App Store Review",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
             "text": "About 2 months ago the app completely quit working. It's up to date and I'm just waiting for a new update to hopefully fix this issue at this point.",
-            "source": "App Store Reviews",
+            "source": "App Store Review",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "Doesn't Work After Updating app… Please fix the issue with the App not moving past the login screen! It was working fine until I hit update.",
-            "source": "App Store Reviews",
+            "text": "Please fix the issue with the App not moving past the login screen! It was working fine until I hit update.",
+            "source": "App Store Review",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -1150,7 +1156,7 @@
         ]
       },
       "newProducts": {
-        "score": 65,
+        "score": 75,
         "weight": 0.2,
         "evidence": [
           {
@@ -1278,7 +1284,7 @@
         ]
       },
       "cxIndicators": {
-        "score": 85,
+        "score": 75,
         "weight": 0.15,
         "evidence": [
           {
@@ -1288,20 +1294,20 @@
             "date": "2026-02-01"
           },
           {
-            "text": "App works great but can't get the '$45 Bonus Offer' to stop popping up despite hitting the decline button every time",
-            "source": "App Store Review",
+            "text": "Trying to make a purchase and my card keeps getting declined. On the phone with fraud department and the same issue with card declined. Very frustrating customer when I'm acknowledging the transaction but my card is still declined.",
+            "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "The screen for my credit card is always laggy. All other parts of the app work perfectly though",
-            "source": "App Store Review",
+            "text": "The screen for my credit card is always laggy. All other parts of the app work perfectly though.",
+            "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "You might want to make it iOS 16 compatible. Lots of people, including myself, are still using older apple devices, like iPad Pro or Air. Limiting this to iOS 17 is not really caring about your customers",
-            "source": "App Store Review",
+            "text": "You might want to make it iOS 16 compatible. Lots of people, including myself, are still using older apple devices, like iPad Pro or Air. Limiting this to iOS 17 is not really caring about your customers.",
+            "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -1370,7 +1376,7 @@
         ]
       },
       "cxIndicators": {
-        "score": 70,
+        "score": 65,
         "weight": 0.15,
         "evidence": [
           {
@@ -1380,20 +1386,20 @@
             "date": "2026-02-01"
           },
           {
-            "text": "Very poor user interface!: The Marcus app is slow and clunky. On the positive side, there's lots of room for improvement!!",
-            "source": "App Store Reviews",
+            "text": "Very poor user interface! The Marcus app is slow and clunky. On the positive side, there's lots of room for improvement!!",
+            "source": "App Store Review",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "January 2026-Will not open until updated: I'll always give 1 star to an app that it's unusable until you update it. I should be able to see my balance no matter what.",
-            "source": "App Store Reviews",
+            "text": "January 2026-Will not open until updated - I'll always give 1 star to an app that it's unusable until you update it. I should be able to see my balance no matter what.",
+            "source": "App Store Review",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "Does not cater to other languages: I've been a customer for over a year now. And while I like the app, I'm giving it a low rating because I'm quite unhappy with the company.",
-            "source": "App Store Reviews",
+            "text": "Horrible customer service and very rude call center team",
+            "source": "App Store Review",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -1462,30 +1468,30 @@
         ]
       },
       "cxIndicators": {
-        "score": 65,
+        "score": 75,
         "weight": 0.15,
         "evidence": [
           {
-            "text": "Average Rating: 4/5 (49 recent reviews)",
+            "text": "App crashes when I try to checkout from the prescription cart",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "This application is impossible. It is hard to get into. Passwords have to be constantly changed & the app shuts down telling you something went wrong",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "No longer tracks steps from apple health ap",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Average Rating: 4/5",
             "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "This application is impossible. It is hard to get into. Passwords have to be constantly changed & the app shuts down telling you something went wrong. Something always goes wrong! You CANNOT look for doctors easily. Nothing is easy on this app",
-            "source": "App Store Review",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "the app crashes when I try to checkout from the prescription cart",
-            "source": "App Store Review",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Why on earth would you remove wellness tracking from the app??? Latest update no longer tracks steps from apple health ap",
-            "source": "App Store Review",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -1560,7 +1566,7 @@
         ]
       },
       "cxIndicators": {
-        "score": 65,
+        "score": 70,
         "weight": 0.15,
         "evidence": [
           {
@@ -1570,19 +1576,19 @@
             "date": "2026-02-01"
           },
           {
-            "text": "Horrible $25 for monthly service, from even an ex-employee and account holder since 25+ years. Even though paperless fee is charged. No interest payment on checking plus savings account.",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Chase took over my Washington Mutual account. I once opened a trust account, stated I didn't know when it would be funded. Asked if I need to put some cash in the account to keep it active and was told no. When I deposited funds, the account was closed due to lack of activity.",
+            "text": "Horrible $25 for monthly service, from even an ex-employee and account holder since 25+ years. Even though paperless fee is charged. No interest payment on checking plus savings account. No senior discount even. They dont care for seniors, loyal customers.",
             "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
             "text": "It's very annoying because I can't get rid of the screen without hitting the button or somehow activatin",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Chase took over my Washington Mutual account. I once opened a trust account, stated I didn't know when it would be funded. Asked if I need to put some cash in the account to keep it active and was told no. When I deposited funds, the account was closed due to lack of activity.",
             "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
@@ -1662,13 +1668,13 @@
             "date": "2026-02-01"
           },
           {
-            "text": "Powerful and Easy to Use: This is a great financial app. It is intuitive and well designed. Navigation is easy and I can do 95% of what I need on the app",
+            "text": "This is a great financial app. It is intuitive and well designed. Navigation is easy",
             "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "Wells Fargo app is a smooth and lucrative tool for every human",
+            "text": "App makes it so easy to do all my bank online",
             "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
@@ -1676,6 +1682,98 @@
           {
             "text": "The app is accessible, using ScreenReader software for the blind. They have done a really good job with the app",
             "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "usbank",
+    "name": "U.S. Bancorp",
+    "ticker": "USB",
+    "sector": "bank",
+    "country": "US",
+    "score": 15,
+    "tier": "lower",
+    "appRating": 4.7,
+    "signals": {
+      "aiCxInvestment": {
+        "score": 50,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 15,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Average Rating: 4.7/5 (49 recent reviews)",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Love having the app, it makes things so much easier!",
+            "source": "App Store Review",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Simply. Excellent!! I won't go to any other bank. Plain and simple. The best. The best. The best!!!",
+            "source": "App Store Review",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "App is barely usable as it's constantly asks for reviews. Consider banking somewhere else due to app issues.",
+            "source": "App Store Review",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -1755,62 +1853,23 @@
           },
           {
             "text": "The Truist app is a mature and thorough app. I enjoy using it.",
-            "source": "App Store Reviews",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
             "text": "Truist has done a great job with the app. Easy to use and navigate and I can conduct most of my banking tasks",
-            "source": "App Store Reviews",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "Excellent because it is user friendly even for hopeless computer users like me.",
-            "source": "App Store Reviews",
+            "text": "Very dependable and generally easy to use",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
         ]
-      }
-    },
-    "executives": [],
-    "lastUpdated": "2026-02-05"
-  },
-  {
-    "id": "usbank",
-    "name": "U.S. Bancorp",
-    "ticker": "USB",
-    "sector": "bank",
-    "country": "US",
-    "score": -1,
-    "tier": "no-data",
-    "appRating": null,
-    "signals": {
-      "aiCxInvestment": {
-        "score": 0,
-        "weight": 0.3,
-        "evidence": []
-      },
-      "newMarkets": {
-        "score": 0,
-        "weight": 0.2,
-        "evidence": []
-      },
-      "newProducts": {
-        "score": 0,
-        "weight": 0.2,
-        "evidence": []
-      },
-      "leadershipChanges": {
-        "score": 0,
-        "weight": 0.15,
-        "evidence": []
-      },
-      "cxIndicators": {
-        "score": 0,
-        "weight": 0.15,
-        "evidence": []
       }
     },
     "executives": [],
