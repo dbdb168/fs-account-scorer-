@@ -38,9 +38,16 @@ interface RawData {
 
 const EXTRACTION_PROMPT = `You are analyzing financial data to score a company's likelihood of needing digital product and customer experience (CX) consulting work.
 
+TODAY'S DATE: 2026-02-05
+
+CRITICAL RULES:
+- ONLY use evidence from the data provided below. Do NOT invent or assume information.
+- For dates, use the actual date from the source. If a review or filing doesn't have a date, use "2026-02-01" (recent).
+- If no relevant data exists for a category, score it 50 and provide one evidence item: {"text": "Insufficient data available", "source": "N/A", "date": "2026-02-05"}
+
 Analyze the provided data and extract signals for each category. For each category, provide:
 1. A score from 0-100 (higher = stronger buy signal)
-2. 2-4 pieces of evidence with exact quotes or data points
+2. 2-4 pieces of evidence with exact quotes or data points from the provided data
 
 SCORING GUIDELINES:
 
