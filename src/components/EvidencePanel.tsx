@@ -7,6 +7,19 @@ interface EvidencePanelProps {
   signals: Signals;
 }
 
+function isFilingOld(dateString: string): boolean {
+  const filingDate = new Date(dateString);
+  const now = new Date();
+  const monthsDiff = (now.getFullYear() - filingDate.getFullYear()) * 12
+    + (now.getMonth() - filingDate.getMonth());
+  return monthsDiff >= 10;
+}
+
+function isSECFiling(source: string): boolean {
+  const lower = source.toLowerCase();
+  return lower.includes("10-k") || lower.includes("10-q") || lower.includes("sec");
+}
+
 export function EvidencePanel({ signals }: EvidencePanelProps) {
   const [expandedSection, setExpandedSection] = useState<SignalKey | null>(
     "aiCxInvestment"
@@ -87,6 +100,14 @@ export function EvidencePanel({ signals }: EvidencePanelProps) {
                         </a>
                         <span>•</span>
                         <span>{formatDate(item.date)}</span>
+                        {isSECFiling(item.source) && isFilingOld(item.date) && (
+                          <>
+                            <span>•</span>
+                            <span className="text-amber-500">
+                              New 10-K expected late Feb/Mar 2026
+                            </span>
+                          </>
+                        )}
                       </div>
                     </div>
                   ))}
