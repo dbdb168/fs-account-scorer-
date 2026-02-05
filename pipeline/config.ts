@@ -59,7 +59,7 @@ export const COMPANIES: CompanyConfig[] = [
     sector: "bank",
     country: "US",
     cik: "0000886982",
-    appStoreId: "1069006595", // Marcus by Goldman Sachs
+    appStoreId: "1489511701", // Marcus by Goldman Sachs
     domain: "goldmansachs.com",
   },
   {
@@ -77,7 +77,7 @@ export const COMPANIES: CompanyConfig[] = [
     ticker: "TD",
     sector: "bank",
     country: "CA",
-    appStoreId: "358790498", // TD Canada
+    appStoreId: "382107453", // TD Bank (US) - more reviews available
     domain: "td.com",
   },
   {
@@ -116,7 +116,7 @@ export const COMPANIES: CompanyConfig[] = [
     sector: "bank",
     country: "US",
     cik: "0000092230",
-    appStoreId: "1470910521", // Truist Mobile
+    appStoreId: "1555389200", // Truist Mobile
     domain: "truist.com",
   },
   {
@@ -148,7 +148,7 @@ export const COMPANIES: CompanyConfig[] = [
     sector: "insurance",
     country: "US",
     cik: "0001156039",
-    appStoreId: "508aborede", // Sydney Health
+    appStoreId: "1463423283", // Sydney Health
     domain: "elevancehealth.com",
   },
   {
@@ -168,7 +168,7 @@ export const COMPANIES: CompanyConfig[] = [
     sector: "insurance",
     country: "US",
     cik: "0000049071",
-    appStoreId: "779188566", // MyHumana
+    appStoreId: "779622024", // MyHumana
     domain: "humana.com",
   },
   {
@@ -177,7 +177,7 @@ export const COMPANIES: CompanyConfig[] = [
     ticker: "MFC",
     sector: "insurance",
     country: "CA",
-    appStoreId: "1234224041", // Manulife Mobile
+    appStoreId: "1214009312", // Manulife Mobile (Canada)
     domain: "manulife.com",
   },
   {
@@ -186,7 +186,7 @@ export const COMPANIES: CompanyConfig[] = [
     ticker: "SLF",
     sector: "insurance",
     country: "CA",
-    appStoreId: "453498066", // Sun Life Mobile
+    appStoreId: "453274313", // my Sun Life (Canada)
     domain: "sunlife.com",
   },
   {
@@ -196,7 +196,7 @@ export const COMPANIES: CompanyConfig[] = [
     sector: "insurance",
     country: "US",
     cik: "0001099219",
-    appStoreId: "570789953", // MetLife US App
+    appStoreId: "570085487", // MetLife US App
     domain: "metlife.com",
   },
   {
@@ -206,7 +206,7 @@ export const COMPANIES: CompanyConfig[] = [
     sector: "insurance",
     country: "US",
     cik: "0001137774",
-    appStoreId: "1063360498", // Prudential Retirement
+    appStoreId: "435695045", // myPrudential
     domain: "prudential.com",
   },
 ];
