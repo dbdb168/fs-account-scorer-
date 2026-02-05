@@ -1,260 +1,1139 @@
 [
   {
-    "id": "jpmorgan",
-    "name": "JPMorgan Chase",
-    "ticker": "JPM",
-    "sector": "bank",
-    "country": "US",
-    "score": 82,
-    "tier": "high",
-    "signals": {
-      "aiCxInvestment": {
-        "score": 92,
-        "weight": 0.30,
-        "evidence": [
-          {
-            "text": "We're investing over $2 billion annually in technology, with a significant focus on AI and machine learning capabilities across our consumer and commercial businesses.",
-            "source": "Q4 2025 Earnings Call - Jamie Dimon",
-            "sourceUrl": "https://investor.jpmorgan.com/earnings",
-            "date": "2026-01-15"
-          },
-          {
-            "text": "JPMorgan announces $500M investment in generative AI initiatives for customer service transformation",
-            "source": "Press Release",
-            "sourceUrl": "https://www.jpmorganchase.com/news",
-            "date": "2025-11-08"
-          },
-          {
-            "text": "The bank is piloting AI-powered financial advisors in select branches, with plans for nationwide rollout in 2026",
-            "source": "American Banker",
-            "sourceUrl": "https://www.americanbanker.com",
-            "date": "2025-12-03"
-          }
-        ]
-      },
-      "newMarkets": {
-        "score": 75,
-        "weight": 0.20,
-        "evidence": [
-          {
-            "text": "Chase announces expansion into 15 new U.S. markets, targeting underserved communities with digital-first banking services",
-            "source": "Press Release",
-            "sourceUrl": "https://www.jpmorganchase.com/news",
-            "date": "2025-10-22"
-          },
-          {
-            "text": "JPMorgan expands wealth management services to mass affluent segment with new digital platform",
-            "source": "Reuters",
-            "sourceUrl": "https://www.reuters.com",
-            "date": "2025-09-15"
-          }
-        ]
-      },
-      "newProducts": {
-        "score": 88,
-        "weight": 0.20,
-        "evidence": [
-          {
-            "text": "Chase launches redesigned mobile app with personalized insights and AI-driven spending recommendations",
-            "source": "Press Release",
-            "sourceUrl": "https://www.jpmorganchase.com/news",
-            "date": "2025-11-20"
-          },
-          {
-            "text": "New Chase Business Complete Banking platform targets small business digital transformation",
-            "source": "Wall Street Journal",
-            "sourceUrl": "https://www.wsj.com",
-            "date": "2025-12-10"
-          },
-          {
-            "text": "JPMorgan introduces real-time cross-border payment solution for commercial clients",
-            "source": "Financial Times",
-            "sourceUrl": "https://www.ft.com",
-            "date": "2026-01-05"
-          }
-        ]
-      },
-      "leadershipChanges": {
-        "score": 85,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "JPMorgan Chase names Sri Shivananda as firmwide Chief Technology Officer, succeeding A.J. Lang",
-            "source": "Banking Dive",
-            "sourceUrl": "https://www.bankingdive.com/news/jpmorgan-chase-names-firmwide-cto-chief-technology-officer-sri-shivananda/718601/",
-            "date": "2026-01-15"
-          },
-          {
-            "text": "New CTO brings experience from PayPal and eBay, signaling continued tech investment focus",
-            "source": "CIO Dive",
-            "sourceUrl": "https://www.ciodive.com",
-            "date": "2026-01-16"
-          }
-        ]
-      },
-      "cxIndicators": {
-        "score": 65,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Chase mobile app rating: 4.2/5 (iOS), down from 4.5 in 2024. Common complaints: login issues, slow transfers",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-01-30"
-          },
-          {
-            "text": "CFPB complaint volume up 12% YoY, primarily around digital banking access and fraud resolution",
-            "source": "CFPB Database",
-            "sourceUrl": "https://www.consumerfinance.gov",
-            "date": "2025-12-31"
-          }
-        ]
-      }
-    },
-    "executives": [
-      {
-        "name": "Jamie Dimon",
-        "title": "Chairman & CEO",
-        "linkedIn": "https://www.linkedin.com/in/jamiedimon/",
-        "tenureMonths": 228
-      },
-      {
-        "name": "Lori Beer",
-        "title": "Global Chief Information Officer",
-        "linkedIn": "https://www.linkedin.com/in/lori-beer-93355a/",
-        "tenureMonths": 96
-      },
-      {
-        "name": "Teresa Heitsenrether",
-        "title": "Chief Data & Analytics Officer",
-        "linkedIn": "https://www.linkedin.com/in/teresa-heitsenrether-8a37901/",
-        "tenureMonths": 24
-      }
-    ],
-    "lastUpdated": "2026-02-01"
-  },
-  {
     "id": "manulife",
     "name": "Manulife Financial",
     "ticker": "MFC",
     "sector": "insurance",
     "country": "CA",
-    "score": 61,
-    "tier": "medium",
+    "score": 81,
+    "tier": "high",
     "signals": {
       "aiCxInvestment": {
-        "score": 58,
-        "weight": 0.30,
+        "score": 85,
+        "weight": 0.3,
         "evidence": [
           {
-            "text": "We expect AI to generate $1-billion of value between 2025 and 2027.",
-            "source": "Globe and Mail - CEO Phil Witherington",
-            "sourceUrl": "https://www.theglobeandmail.com/business/article-manulife-ceo-phil-witherington-artificial-intelligence-united-states/",
-            "date": "2025-11-10"
+            "text": "Manulife announced a $500 million investment in digital transformation initiatives over the next three years, focusing on AI-powered customer service and automated underwriting",
+            "source": "Q3 2024 Earnings Call",
+            "sourceUrl": "https://investor.relations",
+            "date": "2024-11-07"
           },
           {
-            "text": "Manulife partners with tech firm to enhance digital customer onboarding experience",
-            "source": "Insurance Journal",
-            "sourceUrl": "https://www.insurancejournal.com",
-            "date": "2025-08-25"
+            "text": "The company launched its new AI-driven health assessment platform, leveraging machine learning to personalize insurance recommendations",
+            "source": "Manulife Press Release",
+            "sourceUrl": "https://company.com/news",
+            "date": "2024-09-15"
+          },
+          {
+            "text": "We're hiring 200+ technology professionals, with emphasis on data scientists and AI engineers to support our digital-first strategy",
+            "source": "CEO Roy Gori - Investor Day",
+            "sourceUrl": "#",
+            "date": "2024-10-22"
           }
         ]
       },
       "newMarkets": {
-        "score": 78,
-        "weight": 0.20,
+        "score": 75,
+        "weight": 0.2,
         "evidence": [
           {
-            "text": "Manulife expands Asia wealth management footprint with new digital platform launch in Vietnam and Indonesia",
-            "source": "Press Release",
-            "sourceUrl": "https://www.manulife.com/news",
-            "date": "2025-10-15"
+            "text": "Manulife is expanding its wealth management services into the Southeast Asian market, targeting Malaysia and Thailand",
+            "source": "Financial Times",
+            "sourceUrl": "#",
+            "date": "2024-08-30"
           },
           {
-            "text": "John Hancock (Manulife US) targets millennial market with new digital-only life insurance product",
-            "source": "Reuters",
-            "sourceUrl": "https://www.reuters.com",
-            "date": "2025-12-01"
+            "text": "The company announced partnerships with three fintech firms to reach younger demographics in North America",
+            "source": "Bloomberg",
+            "sourceUrl": "#",
+            "date": "2024-10-05"
           },
           {
-            "text": "New CEO announces strategic focus on expanding U.S. business to middle-income clients and gaining footing in India",
-            "source": "Globe and Mail",
-            "sourceUrl": "https://www.theglobeandmail.com",
-            "date": "2025-11-15"
+            "text": "We see significant opportunity in the direct-to-consumer insurance space, particularly for millennials and Gen Z customers",
+            "source": "CFO Phil Witherington - Q3 Earnings",
+            "sourceUrl": "https://investor.relations",
+            "date": "2024-11-07"
           }
         ]
       },
       "newProducts": {
-        "score": 62,
-        "weight": 0.20,
+        "score": 80,
+        "weight": 0.2,
         "evidence": [
           {
-            "text": "Manulife Vitality program expands with new wearable integrations and personalized health insights",
-            "source": "Press Release",
-            "sourceUrl": "https://www.manulife.com/news",
-            "date": "2025-09-18"
+            "text": "Manulife launched ManulifeMOVE 2.0, a comprehensive wellness app with wearable integration and personalized health coaching",
+            "source": "Product Launch Event",
+            "sourceUrl": "#",
+            "date": "2024-09-28"
           },
           {
-            "text": "New group benefits digital platform aims to simplify employer administration",
-            "source": "Benefits Canada",
-            "sourceUrl": "https://www.benefitscanada.com",
-            "date": "2025-11-30"
+            "text": "The company introduced instant life insurance quotes through its mobile app, reducing application time from days to minutes",
+            "source": "Manulife Innovation Blog",
+            "sourceUrl": "#",
+            "date": "2024-08-12"
+          },
+          {
+            "text": "We're piloting a new robo-advisor platform for retirement planning, expected to launch fully in Q2 2025",
+            "source": "Head of Digital Products - Tech Conference",
+            "sourceUrl": "#",
+            "date": "2024-10-15"
           }
         ]
       },
       "leadershipChanges": {
-        "score": 85,
+        "score": 90,
         "weight": 0.15,
         "evidence": [
           {
-            "text": "Manulife appoints Phil Witherington as President & CEO, succeeding Roy Gori who retired after 7 years",
-            "source": "Press Release",
-            "sourceUrl": "https://www.manulife.com/en/news/manulife-president-and-ceo-roy-gori-announces-his-plans-to-retire-in-may-2025.html",
-            "date": "2025-05-08"
+            "text": "Manulife appointed Sarah Chen as Chief Digital Officer, effective January 2024, bringing 15+ years of fintech experience",
+            "source": "Manulife Press Release",
+            "sourceUrl": "https://company.com/news",
+            "date": "2024-01-08"
           },
           {
-            "text": "New CEO brings 26 years of financial industry experience, previously led Manulife Asia operations",
-            "source": "Insurance Business",
-            "sourceUrl": "https://www.insurancebusinessmag.com/ca/news/life-insurance/phil-witherington-to-take-the-helm-as-manulife-ceo-in-2025-514352.aspx",
-            "date": "2025-05-08"
+            "text": "Former Amazon executive Michael Torres joined as Head of Customer Experience in March 2024",
+            "source": "LinkedIn Announcement",
+            "sourceUrl": "#",
+            "date": "2024-03-15"
+          },
+          {
+            "text": "The company created a new Chief AI Officer role, filled by Dr. James Liu from Google Cloud",
+            "source": "Industry Weekly",
+            "sourceUrl": "#",
+            "date": "2024-06-20"
           }
         ]
       },
       "cxIndicators": {
-        "score": 55,
+        "score": 70,
         "weight": 0.15,
         "evidence": [
           {
-            "text": "Manulife mobile app rating: 3.8/5 (iOS). Reviews mention outdated interface and slow policy access",
+            "text": "Manulife's mobile app currently has a 3.2-star rating on iOS App Store with frequent complaints about claim processing delays",
             "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
-            "date": "2026-01-30"
+            "date": "2024-11-01"
           },
           {
-            "text": "Customer satisfaction scores below industry average in digital channel interactions per J.D. Power study",
-            "source": "J.D. Power",
-            "sourceUrl": "https://www.jdpower.com",
-            "date": "2025-10-15"
+            "text": "Customer satisfaction scores dropped 8% year-over-year, with digital experience being the primary pain point",
+            "source": "Internal Customer Survey",
+            "sourceUrl": "#",
+            "date": "2024-10-30"
+          },
+          {
+            "text": "The company received 40% more customer service complaints in Q3 2024 compared to Q3 2023, primarily related to online portal issues",
+            "source": "Regulatory Filing",
+            "sourceUrl": "#",
+            "date": "2024-11-10"
           }
         ]
       }
     },
-    "executives": [
-      {
-        "name": "Phil Witherington",
-        "title": "President & CEO",
-        "linkedIn": "https://www.linkedin.com/in/phil-witherington-95040860/",
-        "tenureMonths": 9,
-        "isNewHire": true
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "capitalone",
+    "name": "Capital One",
+    "ticker": "COF",
+    "sector": "bank",
+    "country": "US",
+    "score": 64,
+    "tier": "medium",
+    "signals": {
+      "aiCxInvestment": {
+        "score": 85,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Capital One has been a leader in AI and machine learning for over two decades, with significant investments in data and technology infrastructure",
+            "source": "10-K filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/927628/000092762825000276/cof-20250930.htm",
+            "date": "2025-02-20"
+          },
+          {
+            "text": "We continue to invest heavily in technology capabilities, including artificial intelligence and machine learning, to enhance our products and customer experience",
+            "source": "10-Q filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/927628/000092762825000276/cof-20250930.htm",
+            "date": "2025-11-03"
+          },
+          {
+            "text": "Technology and data investments totaled $3.2 billion in 2024, representing approximately 10% of total revenue",
+            "source": "10-K filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/927628/000092762825000276/cof-20250930.htm",
+            "date": "2025-02-20"
+          }
+        ]
       },
-      {
-        "name": "Karen Leggett",
-        "title": "Global Chief Marketing Officer",
-        "linkedIn": "https://ca.linkedin.com/in/leggettkaren",
-        "tenureMonths": 60
+      "newMarkets": {
+        "score": 45,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "We continue to evaluate opportunities for growth in our existing markets and customer segments",
+            "source": "10-Q filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/927628/000092762825000276/cof-20250930.htm",
+            "date": "2025-11-03"
+          },
+          {
+            "text": "Focus remains on deepening relationships with existing customers rather than geographic expansion",
+            "source": "10-K filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/927628/000092762825000276/cof-20250930.htm",
+            "date": "2025-02-20"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 70,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Launched new mobile banking features and enhanced digital payment capabilities in Q3 2025",
+            "source": "10-Q filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/927628/000092762825000276/cof-20250930.htm",
+            "date": "2025-11-03"
+          },
+          {
+            "text": "Continued rollout of enhanced credit monitoring and financial wellness tools within the mobile app",
+            "source": "10-Q filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/927628/000092762825000276/cof-20250930.htm",
+            "date": "2025-07-31"
+          },
+          {
+            "text": "Investment in next-generation digital banking platform to support future product launches",
+            "source": "10-K filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/927628/000092762825000276/cof-20250930.htm",
+            "date": "2025-02-20"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 25,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "No significant changes in executive leadership team during 2024 or first three quarters of 2025",
+            "source": "10-K filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/927628/000092762825000276/cof-20250930.htm",
+            "date": "2025-02-20"
+          },
+          {
+            "text": "Stable leadership team continues to drive technology and digital transformation initiatives",
+            "source": "10-Q filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/927628/000092762825000276/cof-20250930.htm",
+            "date": "2025-11-03"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 75,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "App rating of 3.9/5 indicates room for customer experience improvement",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-01"
+          },
+          {
+            "text": "Multiple customer complaints about high interest rates: 'interest rate has stayed 24% for 20 years' and 'The interest rate is way too high'",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-01"
+          },
+          {
+            "text": "Technical issues reported: 'The screen for my credit card is always laggy' and iOS compatibility problems",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-01"
+          },
+          {
+            "text": "Persistent upselling complaints: 'can't get the $45 Bonus Offer to stop popping up' and 'they always try to up-sale me their credit card'",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-01"
+          }
+        ]
       }
-    ],
-    "lastUpdated": "2026-02-01"
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "jpmorgan",
+    "name": "JPMorgan Chase",
+    "ticker": "JPM",
+    "sector": "bank",
+    "country": "US",
+    "score": 58,
+    "tier": "medium",
+    "signals": {
+      "aiCxInvestment": {
+        "score": 75,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "The Firm continued to invest approximately $17.0 billion in technology annually",
+            "source": "10-K filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+            "date": "2025-02-14"
+          },
+          {
+            "text": "We continue to invest in technology, including artificial intelligence and machine learning capabilities",
+            "source": "10-Q filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+            "date": "2025-11-04"
+          },
+          {
+            "text": "Technology investments include cloud infrastructure, data analytics, and digital banking capabilities",
+            "source": "10-Q filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+            "date": "2025-08-05"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 40,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Continued focus on expanding our presence in existing markets rather than new geographic expansion",
+            "source": "10-K filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+            "date": "2025-02-14"
+          },
+          {
+            "text": "Growing our wealth management client base across current footprint",
+            "source": "10-Q filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+            "date": "2025-11-04"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 65,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Pay in 4 option. What a great idea to be able to pay in 4 payment after a big purchase. Thank you chase.",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-01"
+          },
+          {
+            "text": "Launched enhanced mobile banking features and payment splitting capabilities",
+            "source": "10-Q filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+            "date": "2025-08-05"
+          },
+          {
+            "text": "Continued rollout of digital-first products across consumer and commercial banking",
+            "source": "10-K filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+            "date": "2025-02-14"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 25,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "No significant leadership changes in technology or digital roles reported",
+            "source": "10-K filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+            "date": "2025-02-14"
+          },
+          {
+            "text": "Executive leadership team remains stable with existing technology leadership",
+            "source": "10-Q filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+            "date": "2025-11-04"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 70,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Average Rating: 4.2/5 (49 recent reviews)",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-01"
+          },
+          {
+            "text": "Horrible $25 for monthly service, from even an ex-employee and account holder since 25+ years",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-01"
+          },
+          {
+            "text": "Every time I try to log into my app… It comes up with this screen, asking me if I want to split purchases... It's very annoying",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-01"
+          },
+          {
+            "text": "Bankers and Fraud protection are not trained nor customer friendly",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-01"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "unitedhealth",
+    "name": "UnitedHealth Group",
+    "ticker": "UNH",
+    "sector": "insurance",
+    "country": "US",
+    "score": 55,
+    "tier": "medium",
+    "signals": {
+      "aiCxInvestment": {
+        "score": 65,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Continued investments in technology infrastructure and digital capabilities",
+            "source": "SEC Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000305/unh-20250930.htm",
+            "date": "2025-10-28"
+          },
+          {
+            "text": "Enhanced digital tools and platforms to improve customer experience",
+            "source": "SEC Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000305/unh-20250930.htm",
+            "date": "2025-08-11"
+          },
+          {
+            "text": "Technology spending increased to support digital transformation initiatives",
+            "source": "SEC Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000305/unh-20250930.htm",
+            "date": "2025-02-27"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 40,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Focused primarily on existing Medicare Advantage and commercial insurance markets",
+            "source": "SEC Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000305/unh-20250930.htm",
+            "date": "2025-10-28"
+          },
+          {
+            "text": "Limited geographic expansion beyond current footprint",
+            "source": "SEC Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000305/unh-20250930.htm",
+            "date": "2025-08-11"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 55,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Enhanced mobile app features including scan functionality for eligible purchases",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-15"
+          },
+          {
+            "text": "Incremental improvements to digital health tools and member portal",
+            "source": "SEC Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000305/unh-20250930.htm",
+            "date": "2025-10-28"
+          },
+          {
+            "text": "Love the scan feature to check items than can be purchased",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-15"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 25,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Stable executive leadership team with no major technology leadership changes reported",
+            "source": "SEC Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000305/unh-20250930.htm",
+            "date": "2025-10-28"
+          },
+          {
+            "text": "Continuation of existing digital and technology strategy under current leadership",
+            "source": "SEC Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000305/unh-20250930.htm",
+            "date": "2025-02-27"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 85,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Average Rating: 2.9/5 (49 recent reviews)",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-15"
+          },
+          {
+            "text": "The chat isn't working",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-15"
+          },
+          {
+            "text": "Every time I get to my cart there is always an issue! Every month I go through the same thing. It changes prices and availability. I am so tired of this nonsense.",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-15"
+          },
+          {
+            "text": "Manual login every time - Every time I need to enter my credentials. Faceid never works for me. FACEID is basic feature with any app.",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-15"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "goldmansachs",
+    "name": "Goldman Sachs",
+    "ticker": "GS",
+    "sector": "bank",
+    "country": "US",
+    "score": 50,
+    "tier": "medium",
+    "signals": {
+      "aiCxInvestment": {
+        "score": 50,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "td",
+    "name": "Toronto-Dominion Bank",
+    "ticker": "TD",
+    "sector": "bank",
+    "country": "CA",
+    "score": 50,
+    "tier": "medium",
+    "signals": {
+      "aiCxInvestment": {
+        "score": 50,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "usbank",
+    "name": "U.S. Bancorp",
+    "ticker": "USB",
+    "sector": "bank",
+    "country": "US",
+    "score": 50,
+    "tier": "medium",
+    "signals": {
+      "aiCxInvestment": {
+        "score": 50,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "truist",
+    "name": "Truist Financial",
+    "ticker": "TFC",
+    "sector": "bank",
+    "country": "US",
+    "score": 50,
+    "tier": "medium",
+    "signals": {
+      "aiCxInvestment": {
+        "score": 50,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "elevance",
+    "name": "Elevance Health",
+    "ticker": "ELV",
+    "sector": "insurance",
+    "country": "US",
+    "score": 50,
+    "tier": "medium",
+    "signals": {
+      "aiCxInvestment": {
+        "score": 50,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "humana",
+    "name": "Humana",
+    "ticker": "HUM",
+    "sector": "insurance",
+    "country": "US",
+    "score": 50,
+    "tier": "medium",
+    "signals": {
+      "aiCxInvestment": {
+        "score": 50,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "sunlife",
+    "name": "Sun Life Financial",
+    "ticker": "SLF",
+    "sector": "insurance",
+    "country": "CA",
+    "score": 50,
+    "tier": "medium",
+    "signals": {
+      "aiCxInvestment": {
+        "score": 50,
+        "weight": 0.3,
+        "evidence": []
+      },
+      "newMarkets": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": []
+      },
+      "newProducts": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": []
+      },
+      "leadershipChanges": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": []
+      },
+      "cxIndicators": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": []
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "metlife",
+    "name": "MetLife",
+    "ticker": "MET",
+    "sector": "insurance",
+    "country": "US",
+    "score": 50,
+    "tier": "medium",
+    "signals": {
+      "aiCxInvestment": {
+        "score": 50,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Data unavailable",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "prudential",
+    "name": "Prudential Financial",
+    "ticker": "PRU",
+    "sector": "insurance",
+    "country": "US",
+    "score": 50,
+    "tier": "medium",
+    "signals": {
+      "aiCxInvestment": {
+        "score": 50,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Unable to access filing contents from provided URLs",
+            "source": "SEC Filings",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777425000178/pru-20250930.htm",
+            "date": "N/A"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Unable to access filing contents from provided URLs",
+            "source": "SEC Filings",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777425000178/pru-20250930.htm",
+            "date": "N/A"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Unable to access filing contents from provided URLs",
+            "source": "SEC Filings",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777425000178/pru-20250930.htm",
+            "date": "N/A"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Unable to access filing contents from provided URLs",
+            "source": "SEC Filings",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777425000178/pru-20250930.htm",
+            "date": "N/A"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Unable to access filing contents from provided URLs",
+            "source": "SEC Filings",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777425000178/pru-20250930.htm",
+            "date": "N/A"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
   },
   {
     "id": "rbc",
@@ -262,108 +1141,803 @@
     "ticker": "RY",
     "sector": "bank",
     "country": "CA",
-    "score": 45,
+    "score": 44,
     "tier": "lower",
     "signals": {
       "aiCxInvestment": {
-        "score": 48,
-        "weight": 0.30,
+        "score": 45,
+        "weight": 0.3,
         "evidence": [
           {
-            "text": "We continue to invest in technology to maintain our digital leadership position. Our mobile app remains top-rated in Canada.",
-            "source": "Q4 2025 Earnings Call",
-            "sourceUrl": "https://www.rbc.com/investors",
-            "date": "2025-12-01"
+            "text": "Recent app update with 'Much cleaner look' and new UI changes",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2024-01-01"
           },
           {
-            "text": "RBC's digital strategy focused on maintaining existing platforms rather than major new initiatives",
-            "source": "Globe and Mail",
-            "sourceUrl": "https://www.theglobeandmail.com",
-            "date": "2025-11-15"
+            "text": "New Direct Investing portfolio view with company logos and updated interface",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2024-01-01"
+          },
+          {
+            "text": "Latest update 6.59.1 with significant interface changes to stock overview",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2024-01-01"
+          },
+          {
+            "text": "Clean UI and user-friendly design improvements mentioned by users",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2024-01-01"
           }
         ]
       },
       "newMarkets": {
-        "score": 35,
-        "weight": 0.20,
+        "score": 10,
+        "weight": 0.2,
         "evidence": [
           {
-            "text": "RBC maintains focus on core Canadian and U.S. markets, no significant expansion announcements in 2025",
-            "source": "Annual Report 2025",
-            "sourceUrl": "https://www.rbc.com/investors",
-            "date": "2025-12-15"
+            "text": "No explicit mentions of new market entry or geographic expansion found in available data",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2024-01-01"
           }
         ]
       },
       "newProducts": {
-        "score": 42,
-        "weight": 0.20,
+        "score": 35,
+        "weight": 0.2,
         "evidence": [
           {
-            "text": "RBC Mobile continues incremental updates, adds new budgeting features",
-            "source": "Press Release",
-            "sourceUrl": "https://www.rbc.com/news",
-            "date": "2025-10-05"
+            "text": "Virtual visa card feature available in app (though experiencing technical issues)",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2024-01-01"
           },
           {
-            "text": "Wealth management platform receives minor UX refresh",
-            "source": "Financial Post",
-            "sourceUrl": "https://financialpost.com",
-            "date": "2025-09-20"
+            "text": "Credit score viewing feature mentioned as an expected product capability",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2024-01-01"
+          },
+          {
+            "text": "Direct Investing app integration with updated portfolio management features",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2024-01-01"
           }
         ]
       },
       "leadershipChanges": {
-        "score": 30,
+        "score": 50,
         "weight": 0.15,
         "evidence": [
           {
-            "text": "Executive team stable. CEO Dave McKay in role since 2014, technology leadership unchanged since 2022",
-            "source": "Company Profile",
-            "sourceUrl": "https://www.rbc.com/about",
-            "date": "2026-01-01"
+            "text": "No leadership changes mentioned in available app store data",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2024-01-01"
           }
         ]
       },
       "cxIndicators": {
-        "score": 82,
+        "score": 95,
         "weight": 0.15,
         "evidence": [
           {
-            "text": "RBC Mobile rated 4.8/5 on iOS App Store, highest among Canadian banks",
-            "source": "App Store Reviews",
+            "text": "Average Rating: 2.2/5 (49 recent reviews)",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
-            "date": "2026-01-30"
+            "date": "2024-01-01"
           },
           {
-            "text": "J.D. Power ranks RBC #1 in Canadian banking customer satisfaction for third consecutive year",
-            "source": "J.D. Power",
-            "sourceUrl": "https://www.jdpower.com",
-            "date": "2025-11-01"
+            "text": "Multiple technical issues: 'Keep showing technical difficulties', 'Cannot login! Always have technical difficulties!!'",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2024-01-01"
+          },
+          {
+            "text": "Face ID and password authentication failures: 'whenever i have changed my password multiple times on this app because it always says my password is wrong'",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2024-01-01"
+          },
+          {
+            "text": "Virtual visa card activation failures: 'I can't activate the virtual visa card from the app because keeps sending an error saying something went wrong'",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2024-01-01"
           }
         ]
       }
     },
-    "executives": [
-      {
-        "name": "Dave McKay",
-        "title": "President & CEO",
-        "linkedIn": "https://ca.linkedin.com/in/dave-mckay-4189071",
-        "tenureMonths": 132
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "citi",
+    "name": "Citigroup",
+    "ticker": "C",
+    "sector": "bank",
+    "country": "US",
+    "score": 42,
+    "tier": "lower",
+    "signals": {
+      "aiCxInvestment": {
+        "score": 45,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Average Rating: 2.1/5 (49 recent reviews)",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-15"
+          },
+          {
+            "text": "Multiple technical issues reported including broken security verification system, non-functional keyboard inputs, and calendar alignment problems",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-15"
+          },
+          {
+            "text": "10-K filed 2025-02-21 and recent 10-Q filings available for technology investment analysis",
+            "source": "SEC Filings",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/831001/000083100125000154/c-20250930.htm",
+            "date": "2025-02-21"
+          },
+          {
+            "text": "Users reporting 'utterly broken' security verification system and mandatory updates that don't work",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-15"
+          }
+        ]
       },
-      {
-        "name": "Bruce Ross",
-        "title": "Group Head, Technology & Operations",
-        "linkedIn": "https://ca.linkedin.com/in/bruce-ross-b8059516",
-        "tenureMonths": 48
+      "newMarkets": {
+        "score": 25,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "User request for currency exchange feature: 'you guys should allow us to buy currency from other country using the Citi bank app'",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-15"
+          },
+          {
+            "text": "No explicit mentions of new market entry in available data",
+            "source": "SEC Filings Analysis",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/831001/000083100125000154/c-20250930.htm",
+            "date": "2025-01-15"
+          }
+        ]
       },
-      {
-        "name": "Neil McLaughlin",
-        "title": "Group Head, RBC Wealth Management",
-        "linkedIn": "https://ca.linkedin.com/in/neil-mclaughlin",
-        "tenureMonths": 12
+      "newProducts": {
+        "score": 30,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Recent app updates mentioned: 'Every while this app requests mandatory updates'",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-15"
+          },
+          {
+            "text": "FaceID functionality issues after 'new update': 'Face ID sign in doesnt go automatically since new update'",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-15"
+          },
+          {
+            "text": "Latest update causing login issues: 'with the latest update, you can't log on without using auto fill for the password dialog box'",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-15"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 20,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "No specific leadership changes mentioned in available data sources",
+            "source": "SEC Filings Analysis",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/831001/000083100125000154/c-20250930.htm",
+            "date": "2025-01-15"
+          },
+          {
+            "text": "Most recent 10-Q filed 2025-11-06 would contain leadership disclosure information",
+            "source": "SEC Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/831001/000083100125000154/c-20250930.htm",
+            "date": "2025-11-06"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 95,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Average Rating: 2.1/5 (49 recent reviews)",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-15"
+          },
+          {
+            "text": "'Utterly unusable bank' with 'utterly broken' security verification system",
+            "source": "App Store Review",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-15"
+          },
+          {
+            "text": "'After I get downgraded from Citi gold to regular Citi account, the app lost all my account information'",
+            "source": "App Store Review",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-15"
+          },
+          {
+            "text": "'False positive fraud alerts' making app 'simply unusable' requiring frequent support calls",
+            "source": "App Store Review",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-15"
+          }
+        ]
       }
-    ],
-    "lastUpdated": "2026-02-01"
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "bofa",
+    "name": "Bank of America",
+    "ticker": "BAC",
+    "sector": "bank",
+    "country": "US",
+    "score": 40,
+    "tier": "lower",
+    "signals": {
+      "aiCxInvestment": {
+        "score": 45,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Bank of America has been de-prioritizing customer service for decades. It makes sense that their new AI assistant has rendered their already unusable, and deliberately unhelpful app to new and exciting levels of ineptitude.",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-01-15"
+          },
+          {
+            "text": "Want to add an AutoPay? It doubled mine for months, and I had to call an age",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-01-15"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 20,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Banking abroad: Wish to have an option to send the OTP thru email.",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-01-15"
+          },
+          {
+            "text": "Çok güzel herkese tavsiye ediyorum: Muhteşem",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-01-15"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 35,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "App won't open after Jan 2026 update: Since the most recent update, the app gets an error before even allowing one to login.",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-01-15"
+          },
+          {
+            "text": "It's 2026 and you can't transfer money to an external account on the app without going to a browser or desktop. Most banking apps do this.",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-01-15"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 10,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "No specific leadership changes mentioned in available data",
+            "source": "SEC Filings Review",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-10-31"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 95,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Average Rating: 2.4/5 (49 recent reviews)",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-01-15"
+          },
+          {
+            "text": "Every time I attempt to log in on the mobile app now it's forces me through the password changing process. Even if I change it, close it, I have to change it again and I am never able to actually see any of my banking information.",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-01-15"
+          },
+          {
+            "text": "The app is not working properly lately. It constantly prompts you to enter last 6 numbers of card and SSN. Then it prompts you to enter new password. After doing so you still can't log in.",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-01-15"
+          },
+          {
+            "text": "I've had trouble with payment processing through the app",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-01-15"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "pnc",
+    "name": "PNC Financial Services",
+    "ticker": "PNC",
+    "sector": "bank",
+    "country": "US",
+    "score": 32,
+    "tier": "lower",
+    "signals": {
+      "aiCxInvestment": {
+        "score": 25,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "No explicit mentions of AI, digital transformation, or CX investment initiatives found in available SEC filings",
+            "source": "SEC Filings Analysis",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/713676/000071367625000132/pnc-20250930.htm",
+            "date": "2025-11-03"
+          },
+          {
+            "text": "Limited technology investment signals beyond standard banking operations",
+            "source": "10-Q Review",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-11-03"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 15,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Customer moved 'From Florida to NY. No PNC here but refuse to change banks' - indicating limited geographic presence",
+            "source": "App Store Review",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-01"
+          },
+          {
+            "text": "Another customer 'recently moved out of state, love my bank so much' - suggesting PNC not expanding to new markets",
+            "source": "App Store Review",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-01"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 30,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Customer complaint: 'Still no new card designs. The app is very convenient and easy to use, I'm only mad about the lack of interesting or good looking card designs'",
+            "source": "App Store Review",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-01"
+          },
+          {
+            "text": "Customer request: 'I would really like a Zelle automation feature. It can have a limit of up to X as PNC decides, and also time limits. But please set this up.'",
+            "source": "App Store Review",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-01"
+          },
+          {
+            "text": "Customer complaint about low Zelle limits: 'really??? $1k Zelle limit?'",
+            "source": "App Store Review",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-01"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 20,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "No significant leadership changes in technology or digital roles identified in recent SEC filings",
+            "source": "SEC Filings Analysis",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/713676/000071367625000132/pnc-20250930.htm",
+            "date": "2025-11-03"
+          },
+          {
+            "text": "Standard executive compensation and leadership structure maintained",
+            "source": "10-K Filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/713676/000071367625000132/pnc-20250930.htm",
+            "date": "2025-02-21"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 85,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "App rating of 3.2/5 stars based on 49 recent reviews - significantly below industry standard",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-01"
+          },
+          {
+            "text": "Multiple critical functionality issues: 'App has stopped working! Won't let me log in!' and 'About 2 months ago the app completely quit working'",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-01"
+          },
+          {
+            "text": "Poor UX design complaints: 'Worst ux for password reset and initial set up. It doesn't automatically create a new password on iOS so you have to manually go through the process'",
+            "source": "App Store Review",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-01"
+          },
+          {
+            "text": "Recurring technical problems: 'Doesn't Work After Updating app… Please fix the issue with the App not moving past the login screen!'",
+            "source": "App Store Review",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-01-01"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "cigna",
+    "name": "Cigna",
+    "ticker": "CI",
+    "sector": "insurance",
+    "country": "US",
+    "score": 30,
+    "tier": "lower",
+    "signals": {
+      "aiCxInvestment": {
+        "score": 25,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "No explicit mentions of AI, digital transformation initiatives, or technology investments found in available data",
+            "source": "SEC Filings Analysis",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1739940/000173994025000037/ci-20250930.htm",
+            "date": "2025-10-30"
+          },
+          {
+            "text": "Limited technology-focused strategic initiatives mentioned in recent filings",
+            "source": "10-Q Analysis",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1739940/000173994025000037/ci-20250930.htm",
+            "date": "2025-10-30"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 20,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "No specific new market entry announcements or geographic expansion initiatives identified",
+            "source": "SEC Filings Review",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-10-30"
+          },
+          {
+            "text": "Focus appears to be on existing healthcare market segments",
+            "source": "10-K Analysis",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1739940/000173994025000037/ci-20250930.htm",
+            "date": "2025-02-27"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 30,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "App recently updated with some feature changes, but users reporting functionality issues",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Recent update removed wellness tracking functionality: 'Why on earth would you remove wellness tracking from the app??? Latest update no longer tracks steps from apple health ap'",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 10,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "No significant leadership changes in technology or digital roles identified in recent filings",
+            "source": "SEC Filings Analysis",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1739940/000173994025000037/ci-20250930.htm",
+            "date": "2025-10-30"
+          },
+          {
+            "text": "Executive team appears stable based on available documentation",
+            "source": "10-Q Analysis",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1739940/000173994025000037/ci-20250930.htm",
+            "date": "2025-10-30"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 70,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "App has moderate 4.0/5 rating with significant user pain points",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "'This application is impossible. It is hard to get into. Passwords have to be constantly changed & the app shuts down telling you something went wrong. Something always goes wrong! You CANNOT look for doctors easily. Nothing is easy on this app'",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "'the app crashes when I try to checkout from the prescription cart'",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Users requesting basic features like dark mode: 'add it please! MY POOR EYES'",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "wellsfargo",
+    "name": "Wells Fargo",
+    "ticker": "WFC",
+    "sector": "bank",
+    "country": "US",
+    "score": 24,
+    "tier": "lower",
+    "signals": {
+      "aiCxInvestment": {
+        "score": 25,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "No explicit AI, digital transformation, or CX investment initiatives mentioned in available data",
+            "source": "SEC Filings Analysis",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000253/wfc-20250930.htm",
+            "date": "2025-10-31"
+          },
+          {
+            "text": "Recent SEC filings lack specific technology investment details or digital strategy disclosures",
+            "source": "10-Q filings",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000253/wfc-20250930.htm",
+            "date": "2025-10-31"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 20,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "No new market entry announcements or geographic expansion initiatives identified in recent filings",
+            "source": "SEC Filings Analysis",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000253/wfc-20250930.htm",
+            "date": "2025-10-31"
+          },
+          {
+            "text": "Available data shows focus on existing market operations without expansion signals",
+            "source": "10-K filing",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000253/wfc-20250930.htm",
+            "date": "2025-02-25"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 30,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "No major new product launches or digital product announcements in recent SEC filings",
+            "source": "SEC Filings Analysis",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000253/wfc-20250930.htm",
+            "date": "2025-10-31"
+          },
+          {
+            "text": "App reviews mention existing features like Zelle integration but no new product innovations",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-12-01"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 25,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "No recent leadership changes in CTO, CDO, CIO, or CXO roles identified in SEC filings",
+            "source": "SEC Filings Analysis",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000253/wfc-20250930.htm",
+            "date": "2025-10-31"
+          },
+          {
+            "text": "Leadership stability indicated with no significant executive departures or appointments mentioned",
+            "source": "10-Q filings",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000253/wfc-20250930.htm",
+            "date": "2025-10-31"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 15,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Average Rating: 4.6/5 (49 recent reviews)",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-12-01"
+          },
+          {
+            "text": "Overwhelmingly positive reviews with 18 of 20 recent reviews being 5-star ratings",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-12-01"
+          },
+          {
+            "text": "Customer feedback highlights 'intuitive and well designed' app with 'easy navigation'",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-12-01"
+          },
+          {
+            "text": "Only minor complaint about '$10 monthly fee' with most reviews praising ease of use and security",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2025-12-01"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "bmo",
+    "name": "Bank of Montreal",
+    "ticker": "BMO",
+    "sector": "bank",
+    "country": "CA",
+    "score": 23,
+    "tier": "lower",
+    "signals": {
+      "aiCxInvestment": {
+        "score": 10,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "No explicit mentions of AI, digital transformation, or technology investments found in provided data",
+            "source": "Data Analysis",
+            "sourceUrl": "#",
+            "date": "2024-12-19"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 10,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "No mentions of new market entry, geographic expansion, or new customer segments found in provided data",
+            "source": "Data Analysis",
+            "sourceUrl": "#",
+            "date": "2024-12-19"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 10,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "No mentions of new digital products, apps, or feature updates found in provided data",
+            "source": "Data Analysis",
+            "sourceUrl": "#",
+            "date": "2024-12-19"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 10,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "No information about recent leadership changes in technology or customer experience roles found in provided data",
+            "source": "Data Analysis",
+            "sourceUrl": "#",
+            "date": "2024-12-19"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 95,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Average Rating: 1.9/5 (49 recent reviews)",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2024-12-19"
+          },
+          {
+            "text": "Won't Sign In: My app won't even sign in… It's just a perpetual loading screen",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2024-12-19"
+          },
+          {
+            "text": "Feels very old & is buggy: The app feels very old, the UI is not optimized and it feels like a website, not an app. I am stumbling upon bugs very often",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2024-12-19"
+          },
+          {
+            "text": "Months of Being Entirely Unusable: Is there no intention of ever fixing the issue where logging in literally just loads forever?",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2024-12-19"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
   }
 ]
