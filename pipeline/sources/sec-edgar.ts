@@ -76,8 +76,9 @@ export async function fetchSECFilings(
 
     let tenKCount = 0;
     let tenQCount = 0;
+    let eightKCount = 0;
 
-    for (let i = 0; i < recent.form.length && (tenKCount < 1 || tenQCount < 2); i++) {
+    for (let i = 0; i < recent.form.length && (tenKCount < 1 || tenQCount < 2 || eightKCount < 5); i++) {
       const form = recent.form[i];
 
       if (form === "10-K" && tenKCount < 1) {
@@ -98,6 +99,16 @@ export async function fetchSECFilings(
           url: buildFilingUrl(paddedCik, recent.accessionNumber[i], recent.primaryDocument[i]),
         });
         tenQCount++;
+      } else if (form === "8-K" && eightKCount < 5) {
+        // 8-K filings announce material events: leadership changes, acquisitions, etc.
+        filings.push({
+          company: company.name,
+          ticker: company.ticker,
+          filingType: "8-K",
+          filingDate: recent.filingDate[i],
+          url: buildFilingUrl(paddedCik, recent.accessionNumber[i], recent.primaryDocument[i]),
+        });
+        eightKCount++;
       }
     }
 
@@ -192,6 +203,45 @@ function extractRelevantSections(text: string, filingType: string): string | nul
     /CUSTOMER EXPERIENCE/i,
     /MOBILE BANKING/i,
     /DIGITAL CHANNELS/i,
+    /MACHINE LEARNING/i,
+    /AUTOMATION/i,
+  ];
+
+  const marketExpansionPatterns = [
+    /EXPANSION INTO/i,
+    /ENTERED THE .{1,30} MARKET/i,
+    /NEW GEOGRAPHIC/i,
+    /INTERNATIONAL EXPANSION/i,
+    /ACQUIRED/i,
+    /ACQUISITION OF/i,
+    /STRATEGIC PARTNERSHIP/i,
+    /NEW CUSTOMER SEGMENT/i,
+    /MARKET ENTRY/i,
+  ];
+
+  const newProductPatterns = [
+    /LAUNCHED/i,
+    /NEW PRODUCT/i,
+    /NEW SERVICE/i,
+    /INTRODUCED/i,
+    /PRODUCT LAUNCH/i,
+    /NEW OFFERING/i,
+    /RECENTLY RELEASED/i,
+    /NEW FEATURE/i,
+    /ENHANCED .{1,20} PLATFORM/i,
+  ];
+
+  const leadershipPatterns = [
+    /APPOINTED/i,
+    /NAMED .{1,30} AS/i,
+    /NEW CEO/i,
+    /NEW CFO/i,
+    /NEW CTO/i,
+    /NEW CHIEF/i,
+    /JOINED .{1,30} AS/i,
+    /EXECUTIVE .{1,20} CHANGE/i,
+    /LEADERSHIP TRANSITION/i,
+    /BOARD OF DIRECTORS/i,
   ];
 
   // Extract MD&A section (usually Item 7 in 10-K, Item 2 in 10-Q)
@@ -206,10 +256,28 @@ function extractRelevantSections(text: string, filingType: string): string | nul
     sections.push(`[RISK FACTORS]\n${riskSection}`);
   }
 
-  // Also search for digital/technology specific paragraphs throughout
+  // Extract digital/technology mentions
   const digitalMentions = extractDigitalMentions(text, digitalPatterns, 5000);
   if (digitalMentions) {
     sections.push(`[DIGITAL/TECHNOLOGY MENTIONS]\n${digitalMentions}`);
+  }
+
+  // Extract market expansion mentions
+  const marketMentions = extractDigitalMentions(text, marketExpansionPatterns, 4000);
+  if (marketMentions) {
+    sections.push(`[MARKET EXPANSION MENTIONS]\n${marketMentions}`);
+  }
+
+  // Extract new product mentions
+  const productMentions = extractDigitalMentions(text, newProductPatterns, 4000);
+  if (productMentions) {
+    sections.push(`[NEW PRODUCT MENTIONS]\n${productMentions}`);
+  }
+
+  // Extract leadership change mentions
+  const leadershipMentions = extractDigitalMentions(text, leadershipPatterns, 4000);
+  if (leadershipMentions) {
+    sections.push(`[LEADERSHIP MENTIONS]\n${leadershipMentions}`);
   }
 
   if (sections.length === 0) {

@@ -219,7 +219,7 @@ export const API_CONFIG = {
   },
   secEdgar: {
     baseUrl: "https://data.sec.gov",
-    userAgent: "FSAccountScorer contact@example.com", // SEC requires user agent
+    userAgent: "FSAccountScorer david@thisisluminary.co", // SEC requires valid contact
   },
   apollo: {
     baseUrl: "https://api.apollo.io/v1",
