@@ -206,7 +206,7 @@ export const COMPANIES: CompanyConfig[] = [
     sector: "insurance",
     country: "US",
     cik: "0001137774",
-    appStoreId: "435695045", // myPrudential
+    appStoreId: "6751651152", // Prudential - MyBenefits (US)
     domain: "prudential.com",
   },
 ];
