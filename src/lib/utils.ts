@@ -8,6 +8,8 @@ export function getTierColor(tier: Company["tier"]): string {
       return "var(--color-medium)";
     case "lower":
       return "var(--color-lower)";
+    case "no-data":
+      return "var(--color-muted)";
   }
 }
 
@@ -19,6 +21,8 @@ export function getTierLabel(tier: Company["tier"]): string {
       return "Medium Priority";
     case "lower":
       return "Lower Priority";
+    case "no-data":
+      return "Insufficient Data";
   }
 }
 

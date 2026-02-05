@@ -43,24 +43,27 @@ interface Company {
   sector: "bank" | "insurance";
   country: "US" | "CA";
   score: number;
-  tier: "high" | "medium" | "lower";
+  tier: "high" | "medium" | "lower" | "no-data";
+  appRating: number | null;
   signals: ExtractedSignals;
   executives: Executive[];
   lastUpdated: string;
 }
 
-function calculateScore(signals: ExtractedSignals): number {
-  let weightedSum = 0;
-  for (const [key, signal] of Object.entries(signals)) {
-    weightedSum += signal.score * signal.weight;
-  }
-  return Math.round(weightedSum);
+function calculateScore(appRating: number | null): number {
+  if (appRating === null) return -1; // No data
+  // Score = 100 - (rating × 18)
+  // 1.0 rating → 82 (High priority - lots of CX pain)
+  // 3.0 rating → 46 (Medium)
+  // 5.0 rating → 10 (Low priority - good CX, less opportunity)
+  return Math.round(100 - (appRating * 18));
 }
 
-function getTier(score: number): "high" | "medium" | "lower" {
-  if (score >= 75) return "high";
-  if (score >= 50) return "medium";
-  return "lower";
+function getTier(score: number): "high" | "medium" | "lower" | "no-data" {
+  if (score < 0) return "no-data";
+  if (score >= 65) return "high";    // Ratings below 2.0
+  if (score >= 40) return "medium";  // Ratings 2.0-3.3
+  return "lower";                     // Ratings above 3.3
 }
 
 async function processCompany(
@@ -82,23 +85,37 @@ async function processCompany(
 
   console.log(`Data collected: ${secFilings.length} SEC filings, ${transcripts.length} transcripts, ${pressReleases.length} press releases`);
 
-  // Extract signals using Claude
-  const signals = await extractSignals(
-    config.name,
-    config.ticker,
-    {
-      transcripts,
-      pressReleases,
-      secFilings,
-      appStoreData,
-    },
-    anthropicApiKey
-  );
-
-  const score = calculateScore(signals);
+  // Get app rating for primary scoring
+  const appRating = appStoreData?.averageRating ?? null;
+  const score = calculateScore(appRating);
   const tier = getTier(score);
 
-  console.log(`Score: ${score} (${tier} priority)`);
+  console.log(`App Rating: ${appRating ?? 'N/A'}/5 → Score: ${score} (${tier})`);
+
+  // Only extract signals if we have app data (skip API call for no-data companies)
+  let signals: ExtractedSignals;
+  if (appStoreData) {
+    signals = await extractSignals(
+      config.name,
+      config.ticker,
+      {
+        transcripts,
+        pressReleases,
+        secFilings,
+        appStoreData,
+      },
+      anthropicApiKey
+    );
+  } else {
+    // No data - create empty signals
+    signals = {
+      aiCxInvestment: { score: 0, weight: 0.3, evidence: [] },
+      newMarkets: { score: 0, weight: 0.2, evidence: [] },
+      newProducts: { score: 0, weight: 0.2, evidence: [] },
+      leadershipChanges: { score: 0, weight: 0.15, evidence: [] },
+      cxIndicators: { score: 0, weight: 0.15, evidence: [] },
+    };
+  }
 
   return {
     id: config.id,
@@ -108,6 +125,7 @@ async function processCompany(
     country: config.country,
     score,
     tier,
+    appRating,
     signals,
     executives: [], // TODO: Fetch from Apollo.io
     lastUpdated: new Date().toISOString().split("T")[0],

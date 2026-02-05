@@ -34,7 +34,8 @@ export interface Company {
   sector: "bank" | "insurance";
   country: "US" | "CA";
   score: number;
-  tier: "high" | "medium" | "lower";
+  tier: "high" | "medium" | "lower" | "no-data";
+  appRating: number | null;
   signals: Signals;
   executives: Executive[];
   lastUpdated: string;

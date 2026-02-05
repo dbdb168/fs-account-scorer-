@@ -1,952 +1,13 @@
 [
   {
-    "id": "rbc",
-    "name": "Royal Bank of Canada",
-    "ticker": "RY",
-    "sector": "bank",
-    "country": "CA",
-    "score": 59,
-    "tier": "medium",
-    "signals": {
-      "aiCxInvestment": {
-        "score": 50,
-        "weight": 0.3,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newMarkets": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newProducts": {
-        "score": 65,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "The latest upgrade is awful and a step backwards. It lacks basic functionality such as cash balances in each account",
-            "source": "App Store Review",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "This last update 6.59.1 is a mess. The stock overview is garbage. You have to decrypt how many shares you have",
-            "source": "App Store Review",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Much cleaner look, but still no dark mode",
-            "source": "App Store Review",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          }
-        ]
-      },
-      "leadershipChanges": {
-        "score": 50,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "cxIndicators": {
-        "score": 90,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Average Rating: 2.2/5 (49 recent reviews)",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "I can't express how frustrating this app is. The poor performance is for absolutely no reason. To be performing the way RBC mobile does with the advanced technology that we have is embarrassing",
-            "source": "App Store Review",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Cannot login! Always have technical difficulties!! Even after updating the app it still doesn't fix the problem, seriously considering changing to other bank",
-            "source": "App Store Review",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "I can't activate the virtual visa card from the app because keeps sending an error saying 'something went wrong'. I already went to the branch, called for support too and nobody can help me",
-            "source": "App Store Review",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          }
-        ]
-      }
-    },
-    "executives": [],
-    "lastUpdated": "2026-02-05"
-  },
-  {
-    "id": "td",
-    "name": "Toronto-Dominion Bank",
-    "ticker": "TD",
-    "sector": "bank",
-    "country": "CA",
-    "score": 58,
-    "tier": "medium",
-    "signals": {
-      "aiCxInvestment": {
-        "score": 50,
-        "weight": 0.3,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newMarkets": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newProducts": {
-        "score": 65,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "New version is useless….it will will not load. Now I cannot get into my bank account. App needs to be fixed! This has been like this since the new update occurred!",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "New update keeps crashing app - Just updated to newest version and can sign in without an issue. But when I try to click on anything in the app, it crashes.",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "The latest version has caused the \"table of contents\", (ie: if you tap the top left \"three bars\") on the home page, to not display properly on my iPad. This has never happened before.",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          }
-        ]
-      },
-      "leadershipChanges": {
-        "score": 50,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "cxIndicators": {
-        "score": 85,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Average Rating: 3.5/5 (49 recent reviews)",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "New version is useless….it will will not load. Now I cannot get into my bank account. App needs to be fixed! Totally useless app. This has been like this for weeks!",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Cannot get online as need code. Cannot receive code as phone number no longer valid. Cannot change phone number as cannot get online to change, and cannot receive code to get online to change number.",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "The customer service in usa (dial 0) very rude, and crisis. Unacceptable, don't know why those can be work in the big bank make very bag image to the bank.",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          }
-        ]
-      }
-    },
-    "executives": [],
-    "lastUpdated": "2026-02-05"
-  },
-  {
-    "id": "jpmorgan",
-    "name": "JPMorgan Chase",
-    "ticker": "JPM",
-    "sector": "bank",
-    "country": "US",
-    "score": 57,
-    "tier": "medium",
-    "signals": {
-      "aiCxInvestment": {
-        "score": 50,
-        "weight": 0.3,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newMarkets": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newProducts": {
-        "score": 75,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Pay in 4 option. What a great idea to be able to pay in 4 payment after a big purchase. Thank you chase.",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Every time I try to log into my app… Even if it's to do business outside of my credit card… It comes up with this screen, asking me if I want to split purchases or pay them overtime or something.",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          }
-        ]
-      },
-      "leadershipChanges": {
-        "score": 50,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "cxIndicators": {
-        "score": 65,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Average Rating: 4.2/5 (49 recent reviews)",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Horrible $25 for monthly service, from even an ex-employee and account holder since 25+ years. Even though paperless fee is charged. No interest payment on checking plus savings account.",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "I transferred money, from another financial institution, into my Chase checking account over the weekend. It arrived on Tuesday. My account show the money in my account as 'balance' but states that a hold has been placed on it and it isn't available until Friday. Extremely inconvenient!",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Chase took over my Washington Mutual account. I once opened a trust account, stated I didn't know when it would be funded. Asked if I need to put some cash in the account to keep it active and was told no. When I deposited funds, the account was closed due to lack of activity.",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          }
-        ]
-      }
-    },
-    "executives": [],
-    "lastUpdated": "2026-02-05"
-  },
-  {
-    "id": "bofa",
-    "name": "Bank of America",
-    "ticker": "BAC",
-    "sector": "bank",
-    "country": "US",
-    "score": 57,
-    "tier": "medium",
-    "signals": {
-      "aiCxInvestment": {
-        "score": 50,
-        "weight": 0.3,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newMarkets": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newProducts": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "leadershipChanges": {
-        "score": 50,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "cxIndicators": {
-        "score": 95,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Average Rating: 2.4/5 (49 recent reviews)",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Since the most recent update, the app gets an error before even allowing one to login. Despite removing and reinstalling, the app is still completely unusable since it won't even allow a login.",
-            "source": "App Store Review",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Every time I attempt to log in on the mobile app now it's forces me through the password changing process. Even if I change it, close it, I have to change it again and I am never able to actually see any of my banking information.",
-            "source": "App Store Review",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Bank of America has been de-prioritizing customer service for decades. It makes sense that their new AI assistant has rendered their already unusable, and deliberately unhelpful app to new and exciting levels of ineptitude.",
-            "source": "App Store Review",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          }
-        ]
-      }
-    },
-    "executives": [],
-    "lastUpdated": "2026-02-05"
-  },
-  {
-    "id": "citi",
-    "name": "Citigroup",
-    "ticker": "C",
-    "sector": "bank",
-    "country": "US",
-    "score": 57,
-    "tier": "medium",
-    "signals": {
-      "aiCxInvestment": {
-        "score": 50,
-        "weight": 0.3,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newMarkets": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newProducts": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "leadershipChanges": {
-        "score": 50,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "cxIndicators": {
-        "score": 95,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Average Rating: 2.1/5 (49 recent reviews)",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Truly unusable bank. They let you get a credit card, but then there's so way to actually log in because the security verification system is utterly broken",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "After I get downgraded from Citi gold to regular Citi account, the app lost all my account information. When I log in, the only thing I can see is my credit card. I can't see my checking account, saving account, and linked account— the app lost all that information! Terrible app!",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "The amount of times I've had to call city support to clear out their false positive on potential fraud makes this app simply unusable. Please fix your algorithms or be better at detecting fraud.",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          }
-        ]
-      }
-    },
-    "executives": [],
-    "lastUpdated": "2026-02-05"
-  },
-  {
-    "id": "bmo",
-    "name": "Bank of Montreal",
-    "ticker": "BMO",
-    "sector": "bank",
-    "country": "CA",
-    "score": 57,
-    "tier": "medium",
-    "signals": {
-      "aiCxInvestment": {
-        "score": 50,
-        "weight": 0.3,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newMarkets": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newProducts": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "leadershipChanges": {
-        "score": 50,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "cxIndicators": {
-        "score": 95,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Average Rating: 1.9/5 (49 recent reviews)",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "The app feels very old, the UI is not optimized and it feels like a website, not an app. I am stumbling upon bugs very often. Please work on the design of your app to make it friendly and pleasant to use. I regret already switching banks.",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Months of Being Entirely Unusable - Is there no intention of ever fixing the issue where logging in literally just loads forever? Tired of having to use my PC to see my balances.",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "They changed so you can't pay your mortgage on the app anymore, and make you sign in from a pc is the only way. Also etranfers take like 1-2 business day and are not instant like other banking apps.",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          }
-        ]
-      }
-    },
-    "executives": [],
-    "lastUpdated": "2026-02-05"
-  },
-  {
-    "id": "elevance",
-    "name": "Elevance Health",
-    "ticker": "ELV",
-    "sector": "insurance",
-    "country": "US",
-    "score": 57,
-    "tier": "medium",
-    "signals": {
-      "aiCxInvestment": {
-        "score": 50,
-        "weight": 0.3,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newMarkets": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newProducts": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "leadershipChanges": {
-        "score": 50,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "cxIndicators": {
-        "score": 95,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Average Rating: 3.1/5 (49 recent reviews)",
-            "source": "App Store",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "App sucks and so does company for any resolve to medical claim reimbursement emails get ignored, follow is no existent. Sad.",
-            "source": "App Store Review",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Cannot login to my account for weeks now",
-            "source": "App Store Review",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Need to find an urgent care that covers me, and according to this app, no urgent cares in the country take my insurance. The map feature just seems to be completely broken",
-            "source": "App Store Review",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          }
-        ]
-      }
-    },
-    "executives": [],
-    "lastUpdated": "2026-02-05"
-  },
-  {
-    "id": "manulife",
-    "name": "Manulife Financial",
-    "ticker": "MFC",
-    "sector": "insurance",
-    "country": "CA",
-    "score": 57,
-    "tier": "medium",
-    "signals": {
-      "aiCxInvestment": {
-        "score": 50,
-        "weight": 0.3,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newMarkets": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newProducts": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "leadershipChanges": {
-        "score": 50,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "cxIndicators": {
-        "score": 95,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Average Rating: 1.5/5 (49 recent reviews)",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "The app terrible to navigate, glitches often, and doesn't show relevant information about coverage. Information is anything but straightforward. Either the app was designed VERY poorly or intentionally to frustrate and deter clients",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Nothing ever loads, I am forced to use the mobile site",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Coverage Tab Freezes App: Tapping the Coverage tab freezes the app. This critical bug has been present for over two months with no fix, making the app unreliable and frustrating to use",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          }
-        ]
-      }
-    },
-    "executives": [],
-    "lastUpdated": "2026-02-05"
-  },
-  {
-    "id": "sunlife",
-    "name": "Sun Life Financial",
-    "ticker": "SLF",
-    "sector": "insurance",
-    "country": "CA",
-    "score": 57,
-    "tier": "medium",
-    "signals": {
-      "aiCxInvestment": {
-        "score": 50,
-        "weight": 0.3,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newMarkets": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newProducts": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "leadershipChanges": {
-        "score": 50,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "cxIndicators": {
-        "score": 95,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Average Rating: 2/5 (49 recent reviews)",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Since the new update the functionality for investment viewing is limited at best. Unable to view my individual investments any more. Only able to see the total.",
-            "source": "App Store Review",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Signing in is next to impossible. Goodluck if you have a new account",
-            "source": "App Store Review",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "This app used to be amazing up until they did the big overhaul on it. I hate that I don't just have my claims and balances right up front and center.",
-            "source": "App Store Review",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          }
-        ]
-      }
-    },
-    "executives": [],
-    "lastUpdated": "2026-02-05"
-  },
-  {
-    "id": "metlife",
-    "name": "MetLife",
-    "ticker": "MET",
-    "sector": "insurance",
-    "country": "US",
-    "score": 57,
-    "tier": "medium",
-    "signals": {
-      "aiCxInvestment": {
-        "score": 50,
-        "weight": 0.3,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newMarkets": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newProducts": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "leadershipChanges": {
-        "score": 50,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "cxIndicators": {
-        "score": 95,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Average Rating: 1.3/5 (49 recent reviews)",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "When I try to find a provider, it tells me the system is updating and try again in 1-2 hours. I've been trying for two weeks.",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "The app does not work at all. Once you log in, if you try to do anything it'll load for quite some time then says try again.",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Every time MetLife updates the app it gets more worthless. The latest update will not even show my claim. The provider locator and procedure estimates don't even appear on the app.",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          }
-        ]
-      }
-    },
-    "executives": [],
-    "lastUpdated": "2026-02-05"
-  },
-  {
     "id": "prudential",
     "name": "Prudential Financial",
     "ticker": "PRU",
     "sector": "insurance",
     "country": "US",
-    "score": 57,
-    "tier": "medium",
+    "score": 80,
+    "tier": "high",
+    "appRating": 1.1,
     "signals": {
       "aiCxInvestment": {
         "score": 50,
@@ -1008,19 +69,951 @@
           },
           {
             "text": "用不了，登錄之後頁面卡住一直在轉圈，點什麼都沒反應",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "添加信用卡只能靠图片识别，所有新的信用卡都识别不了，就不能让用户手动添加信用卡吗？",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "面容ID都不可用…更新了版本还是不可用",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "metlife",
+    "name": "MetLife",
+    "ticker": "MET",
+    "sector": "insurance",
+    "country": "US",
+    "score": 77,
+    "tier": "high",
+    "appRating": 1.3,
+    "signals": {
+      "aiCxInvestment": {
+        "score": 50,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 95,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Average Rating: 1.3/5 (49 recent reviews)",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "添加信用卡只能靠圖片識別，所有新的信用卡都識別不了，就不能讓用戶手動添加信用卡嗎？",
+            "text": "When I try to find a provider, it tells me the system is updating and try again in 1-2 hours. I've been trying for two weeks.",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Every time MetLife updates the app it gets more worthless. The latest update will not even show my claim.",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "When logging into the app OR the website it just spins and eventually times out and tells me it was unable to load my profile.",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "manulife",
+    "name": "Manulife Financial",
+    "ticker": "MFC",
+    "sector": "insurance",
+    "country": "CA",
+    "score": 73,
+    "tier": "high",
+    "appRating": 1.5,
+    "signals": {
+      "aiCxInvestment": {
+        "score": 50,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 95,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Average Rating: 1.5/5 (49 recent reviews)",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "面容ID都不可用…更新了版本還是不可用",
+            "text": "The app terrible to navigate, glitches often, and doesn't show relevant information about coverage. Information is anything but straightforward. Either the app was designed VERY poorly or intentionally to frustrate and deter clients from accessing coverage that they PAY FOR.",
             "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Nothing ever loads, I am forced to use the mobile site",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Coverage Tab Freezes App: Tapping the Coverage tab freezes the app. This critical bug has been present for over two months with no fix, making the app unreliable and frustrating to use.",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "bmo",
+    "name": "Bank of Montreal",
+    "ticker": "BMO",
+    "sector": "bank",
+    "country": "CA",
+    "score": 66,
+    "tier": "high",
+    "appRating": 1.9,
+    "signals": {
+      "aiCxInvestment": {
+        "score": 50,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 95,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Average Rating: 1.9/5 (49 recent reviews)",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "The app feels very old, the UI is not optimized and it feels like a website, not an app. I am stumbling upon bugs very often.",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Won't Sign In - My app won't even sign in… It's just a perpetual loading screen.",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "This BMO app is down more than it works. Awful.",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "sunlife",
+    "name": "Sun Life Financial",
+    "ticker": "SLF",
+    "sector": "insurance",
+    "country": "CA",
+    "score": 64,
+    "tier": "medium",
+    "appRating": 2,
+    "signals": {
+      "aiCxInvestment": {
+        "score": 50,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 90,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Average Rating: 2/5 (49 recent reviews)",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Terrible site: Trying to find anything on this site, when it's even working that is, is cumbersome",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Since the new update the functionality for investment viewing is limited at best. Unable to view my individual investments any more",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Signing in is next to impossible. Goodluck if you have a new account",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "citi",
+    "name": "Citigroup",
+    "ticker": "C",
+    "sector": "bank",
+    "country": "US",
+    "score": 62,
+    "tier": "medium",
+    "appRating": 2.1,
+    "signals": {
+      "aiCxInvestment": {
+        "score": 50,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 95,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Average Rating: 2.1/5 (49 recent reviews)",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Truly unusable bank. They let you get a credit card, but then there's so way to actually log in because the security verification system is utterly broken",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "After I get downgraded from Citi gold to regular Citi account, the app lost all my account information. When I log in, the only thing I can see is my credit card. I can't see my checking account, saving account, and linked account— the app lost all that information! Terrible app!",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "The amount of times I've had to call city support to clear out their false positive on potential fraud makes this app simply unusable. Please fix your algorithms or be better at detecting fraud.",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "rbc",
+    "name": "Royal Bank of Canada",
+    "ticker": "RY",
+    "sector": "bank",
+    "country": "CA",
+    "score": 60,
+    "tier": "medium",
+    "appRating": 2.2,
+    "signals": {
+      "aiCxInvestment": {
+        "score": 50,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 65,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Much cleaner look, but still no dark mode",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "The latest upgrade is awful and a step backwards",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "This last update 6.59.1 is a mess. The stock overview is garbage",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 95,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Average Rating: 2.2/5 (49 recent reviews)",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Cannot login! Always have technical difficulties!! Even after updating the app it still doesn't fix the problem, seriously considering changing to other bank",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "I can't express how frustrating this app is. The poor performance is for absolutely no reason",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "I can't activate the virtual visa card from the app because keeps sending an error saying 'something went wrong'. I already went to the branch, called for support too and nobody can help me",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "bofa",
+    "name": "Bank of America",
+    "ticker": "BAC",
+    "sector": "bank",
+    "country": "US",
+    "score": 57,
+    "tier": "medium",
+    "appRating": 2.4,
+    "signals": {
+      "aiCxInvestment": {
+        "score": 50,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 95,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Average Rating: 2.4/5 (49 recent reviews)",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "App won't open after Jan 2026 update - Since the most recent update, the app gets an error before even allowing one to login. Despite removing and reinstalling, the app is still completely unusable since it won't even allow a login.",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Every time I attempt to log in on the mobile app now it's forces me through the password changing process. Even if I change it, close it, I have to change it again and I am never able to actually see any of my banking information.",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Bank of America has been de-prioritizing customer service for decades. It makes sense that their new AI assistant has rendered their already unusable, and deliberately unhelpful app to new and exciting levels of ineptitude.",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "humana",
+    "name": "Humana",
+    "ticker": "HUM",
+    "sector": "insurance",
+    "country": "US",
+    "score": 50,
+    "tier": "medium",
+    "appRating": 2.8,
+    "signals": {
+      "aiCxInvestment": {
+        "score": 50,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 95,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Average Rating: 2.8/5 (49 recent reviews)",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "OTC process is weak: Have to hunt for finding stores and eligible products. No clear camera bar code scan option",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "App is useless: Can't find anything I want, including in-network providers",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Don't bother: I can't find year end summary; can't find out if an optometrist is in network; can't find out if my letter of necessity has been received. App is useless for me right now",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "unitedhealth",
+    "name": "UnitedHealth Group",
+    "ticker": "UNH",
+    "sector": "insurance",
+    "country": "US",
+    "score": 48,
+    "tier": "medium",
+    "appRating": 2.9,
+    "signals": {
+      "aiCxInvestment": {
+        "score": 50,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 85,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Average Rating: 2.9/5 (49 recent reviews)",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Every time I get to my cart there is always an issue! Every month I go through the same thing. It changes prices and availability. I am so tired of this nonsense. It takes an hour to finally get the order to submit.",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Manual login every time - Every time I need to enter my credentials. Faceid never works for me. FACEID is basic feature with any app. Not sure UHC can't handle faceid at all",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "App is so glitchy and slow",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "elevance",
+    "name": "Elevance Health",
+    "ticker": "ELV",
+    "sector": "insurance",
+    "country": "US",
+    "score": 44,
+    "tier": "medium",
+    "appRating": 3.1,
+    "signals": {
+      "aiCxInvestment": {
+        "score": 50,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 85,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Average Rating: 3.1/5 (49 recent reviews)",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Cannot login to my account for weeks now",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Finding care doesn't work. Need to find an urgent care that covers me, and according to this app, no urgent cares in the country take my insurance. The map feature just seems to be completely broken",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "The app is just slow and sometimes you have to exit out in order for it to work. The buttons sometimes don't work.",
+            "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -1036,8 +1029,9 @@
     "ticker": "PNC",
     "sector": "bank",
     "country": "US",
-    "score": 55,
+    "score": 42,
     "tier": "medium",
+    "appRating": 3.2,
     "signals": {
       "aiCxInvestment": {
         "score": 50,
@@ -1122,195 +1116,14 @@
     "lastUpdated": "2026-02-05"
   },
   {
-    "id": "unitedhealth",
-    "name": "UnitedHealth Group",
-    "ticker": "UNH",
-    "sector": "insurance",
-    "country": "US",
-    "score": 55,
-    "tier": "medium",
-    "signals": {
-      "aiCxInvestment": {
-        "score": 50,
-        "weight": 0.3,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newMarkets": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newProducts": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "leadershipChanges": {
-        "score": 50,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "cxIndicators": {
-        "score": 85,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Average Rating: 2.9/5 (49 recent reviews)",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Every time I need to enter my credentials. Faceid never works for me. FACEID is basic feature with any app. Not sure UHC can't handle faceid at all",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "App is so glitchy and slow",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Every time I get to my cart there is always an issue! Every month I go through the same thing. It changes prices and availability. I am so tired of this nonsense. It takes an hour to finally get the order to submit.",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          }
-        ]
-      }
-    },
-    "executives": [],
-    "lastUpdated": "2026-02-05"
-  },
-  {
-    "id": "humana",
-    "name": "Humana",
-    "ticker": "HUM",
-    "sector": "insurance",
-    "country": "US",
-    "score": 55,
-    "tier": "medium",
-    "signals": {
-      "aiCxInvestment": {
-        "score": 50,
-        "weight": 0.3,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newMarkets": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "newProducts": {
-        "score": 50,
-        "weight": 0.2,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "leadershipChanges": {
-        "score": 50,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
-          }
-        ]
-      },
-      "cxIndicators": {
-        "score": 85,
-        "weight": 0.15,
-        "evidence": [
-          {
-            "text": "Average Rating: 2.8/5 (49 recent reviews)",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "App is useless: Can't find anything I want, including in-network providers.",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Don't bother: I can't find year end summary; can't find out if an optometrist is in network; can't find out if my letter of necessity has been received. App is useless for me right now",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "Limited Options: It's a great app if you want at a glance your past claims and details. You are not able to appeal via the app or communicate with anyone at Humana you still have to call them. It's somewhat useless.",
-            "source": "App Store Reviews",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          }
-        ]
-      }
-    },
-    "executives": [],
-    "lastUpdated": "2026-02-05"
-  },
-  {
-    "id": "goldmansachs",
-    "name": "Goldman Sachs",
-    "ticker": "GS",
+    "id": "td",
+    "name": "Toronto-Dominion Bank",
+    "ticker": "TD",
     "sector": "bank",
-    "country": "US",
-    "score": 54,
-    "tier": "medium",
+    "country": "CA",
+    "score": 37,
+    "tier": "lower",
+    "appRating": 3.5,
     "signals": {
       "aiCxInvestment": {
         "score": 50,
@@ -1337,14 +1150,26 @@
         ]
       },
       "newProducts": {
-        "score": 50,
+        "score": 75,
         "weight": 0.2,
         "evidence": [
           {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
+            "text": "New version is useless….it will will not load. Now I cannot get into my bank account. App needs to be fixed! This has been like this since the new update occurred!",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "New update keeps crashing app - Just updated to newest version and can sign in without an issue. But when I try to click on anything in the app, it crashes.",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "The latest version has caused the \"table of contents\", (ie: if you tap the top left \"three bars\") on the home page, to not display properly on my iPad. This has never happened before.",
+            "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
           }
         ]
       },
@@ -1361,29 +1186,29 @@
         ]
       },
       "cxIndicators": {
-        "score": 75,
+        "score": 85,
         "weight": 0.15,
         "evidence": [
           {
-            "text": "Average Rating: 4/5 (49 recent reviews)",
+            "text": "Average Rating: 3.5/5 (49 recent reviews)",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "The Marcus app is slow and clunky. On the positive side, there's lots of room for improvement!!",
+            "text": "New version is useless….it will will not load. Now I cannot get into my bank account. App needs to be fixed! Totally useless app. This has been like this for weeks!",
             "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "January 2026-Will not open until updated - I'll always give 1 star to an app that it's unusable until you update it. I should be able to see my balance no matter what.",
+            "text": "Cannot get online as need code. Cannot receive code as phone number no longer valid. Cannot change phone number as cannot get online to change, and cannot contact TD America for help as they \"are busy\".",
             "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "Does not cater to other languages - I attempted to help my mother (who does not speak English fluently) open an account. However, I was disappointed upon hearing that the company",
+            "text": "The customer service in usa (dial 0) very rude, and crisis. Unacceptable, don't know why those can be work in the big bank make very bag image to the bank.",
             "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
@@ -1400,8 +1225,9 @@
     "ticker": "COF",
     "sector": "bank",
     "country": "US",
-    "score": 54,
-    "tier": "medium",
+    "score": 30,
+    "tier": "lower",
+    "appRating": 3.9,
     "signals": {
       "aiCxInvestment": {
         "score": 50,
@@ -1456,26 +1282,118 @@
         "weight": 0.15,
         "evidence": [
           {
-            "text": "Average Rating: 3.9/5",
+            "text": "Average Rating: 3.9/5 (49 recent reviews)",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "Trying to make a purchase and my card keeps getting declined. On the phone with fraud department and the same issue with card declined. Very frustrating customer when I'm acknowledging the transaction but my card is still declined",
+            "text": "Trying to make a purchase and my card keeps getting declined. On the phone with fraud department and the same issue with card declined. Very frustrating customer when I'm acknowledging the transaction but my card is still declined.",
             "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "The screen for my credit card is always laggy. All other parts of the app work perfectly though",
+            "text": "The screen for my credit card is always laggy. All other parts of the app work perfectly though.",
             "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "App works great but can't get the '$45 Bonus Offer' to stop popping up despite hitting the decline button every time",
+            "text": "You might want to make it iOS 16 compatible. Lots of people, including myself, are still using older apple devices, like iPad Pro or Air. Limiting this to iOS 17 is not really caring about your customers.",
             "source": "App Store Reviews",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          }
+        ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "goldmansachs",
+    "name": "Goldman Sachs",
+    "ticker": "GS",
+    "sector": "bank",
+    "country": "US",
+    "score": 28,
+    "tier": "lower",
+    "appRating": 4,
+    "signals": {
+      "aiCxInvestment": {
+        "score": 50,
+        "weight": 0.3,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newMarkets": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "newProducts": {
+        "score": 50,
+        "weight": 0.2,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "leadershipChanges": {
+        "score": 50,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Insufficient data available",
+            "source": "N/A",
+            "sourceUrl": "#",
+            "date": "2026-02-05"
+          }
+        ]
+      },
+      "cxIndicators": {
+        "score": 70,
+        "weight": 0.15,
+        "evidence": [
+          {
+            "text": "Average Rating: 4/5 (49 recent reviews)",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "The Marcus app is slow and clunky. On the positive side, there's lots of room for improvement!!",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "January 2026-Will not open until updated - I'll always give 1 star to an app that it's unusable until you update it. I should be able to see my balance no matter what.",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Horrible customer service and very rude call center team",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -1491,8 +1409,9 @@
     "ticker": "CI",
     "sector": "insurance",
     "country": "US",
-    "score": 54,
-    "tier": "medium",
+    "score": 28,
+    "tier": "lower",
+    "appRating": 4,
     "signals": {
       "aiCxInvestment": {
         "score": 50,
@@ -1547,26 +1466,26 @@
         "weight": 0.15,
         "evidence": [
           {
-            "text": "4/5 average rating with mixed user experience",
-            "source": "App Store",
+            "text": "app crashes when I try to checkout from the prescription cart",
+            "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
             "text": "This application is impossible. It is hard to get into. Passwords have to be constantly changed & the app shuts down telling you something went wrong. Something always goes wrong! You CANNOT look for doctors easily. Nothing is easy on this app",
-            "source": "App Store Review",
+            "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "the app crashes when I try to checkout from the prescription cart",
-            "source": "App Store Review",
+            "text": "no longer tracks steps from apple health ap",
+            "source": "App Store Reviews",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "Steps were briefly fixed. Broken again with the latest update. Why on earth would you remove wellness tracking from the app??? Latest update no longer tracks steps from apple health ap",
-            "source": "App Store Review",
+            "text": "Average Rating: 4/5 (49 recent reviews)",
+            "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
@@ -1577,13 +1496,14 @@
     "lastUpdated": "2026-02-05"
   },
   {
-    "id": "usbank",
-    "name": "U.S. Bancorp",
-    "ticker": "USB",
+    "id": "jpmorgan",
+    "name": "JPMorgan Chase",
+    "ticker": "JPM",
     "sector": "bank",
     "country": "US",
-    "score": 50,
-    "tier": "medium",
+    "score": 24,
+    "tier": "lower",
+    "appRating": 4.2,
     "signals": {
       "aiCxInvestment": {
         "score": 50,
@@ -1610,14 +1530,20 @@
         ]
       },
       "newProducts": {
-        "score": 50,
+        "score": 75,
         "weight": 0.2,
         "evidence": [
           {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
+            "text": "What a great idea to be able to pay in 4 payment after a big purchase. Thank you chase.",
+            "source": "App Store Review",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Every time I try to log into my app… Even if it's to do business outside of my credit card… It comes up with this screen, asking me if I want to split purchases or pay them overtime or something.",
+            "source": "App Store Review",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
           }
         ]
       },
@@ -1634,14 +1560,32 @@
         ]
       },
       "cxIndicators": {
-        "score": 50,
+        "score": 75,
         "weight": 0.15,
         "evidence": [
           {
-            "text": "Insufficient data available",
-            "source": "N/A",
-            "sourceUrl": "#",
-            "date": "2026-02-05"
+            "text": "Horrible $25 for monthly service, from even an ex-employee and account holder since 25+ years. Even though paperless fee is charged. No interest payment on checking plus savings account. No senior discount even. They dont care for seniors, loyal customers.",
+            "source": "App Store Review",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Chase took over my Washington Mutual account. I once opened a trust account, stated I didn't know when it would be funded. Asked if I need to put some cash in the account to keep it active and was told no. When I deposited funds, the account was closed due to lack of activity.",
+            "source": "App Store Review",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "It's very annoying because I can't get rid of the screen without hitting the button or somehow activating",
+            "source": "App Store Review",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
+            "text": "Average Rating: 4.2/5 (49 recent reviews)",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
           }
         ]
       }
@@ -1655,8 +1599,9 @@
     "ticker": "WFC",
     "sector": "bank",
     "country": "US",
-    "score": 45,
+    "score": 17,
     "tier": "lower",
+    "appRating": 4.6,
     "signals": {
       "aiCxInvestment": {
         "score": 50,
@@ -1746,8 +1691,9 @@
     "ticker": "TFC",
     "sector": "bank",
     "country": "US",
-    "score": 45,
+    "score": 12,
     "tier": "lower",
+    "appRating": 4.9,
     "signals": {
       "aiCxInvestment": {
         "score": 50,
@@ -1808,24 +1754,63 @@
             "date": "2026-02-01"
           },
           {
+            "text": "Excellent because it is user friendly even for hopeless computer users like me.",
+            "source": "App Store Data",
+            "sourceUrl": "https://apps.apple.com",
+            "date": "2026-02-01"
+          },
+          {
             "text": "The Truist app is a mature and thorough app. I enjoy using it.",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           },
           {
-            "text": "Truist has done a great job with the app. Easy to use and navigate and I can conduct most of my banking tasks !",
-            "source": "App Store Data",
-            "sourceUrl": "https://apps.apple.com",
-            "date": "2026-02-01"
-          },
-          {
-            "text": "it is user friendly even for hopeless computer users like me",
+            "text": "Truist has done a great job with the app. Easy to use and navigate and I can conduct most of my banking tasks",
             "source": "App Store Data",
             "sourceUrl": "https://apps.apple.com",
             "date": "2026-02-01"
           }
         ]
+      }
+    },
+    "executives": [],
+    "lastUpdated": "2026-02-05"
+  },
+  {
+    "id": "usbank",
+    "name": "U.S. Bancorp",
+    "ticker": "USB",
+    "sector": "bank",
+    "country": "US",
+    "score": -1,
+    "tier": "no-data",
+    "appRating": null,
+    "signals": {
+      "aiCxInvestment": {
+        "score": 0,
+        "weight": 0.3,
+        "evidence": []
+      },
+      "newMarkets": {
+        "score": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      "newProducts": {
+        "score": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      "leadershipChanges": {
+        "score": 0,
+        "weight": 0.15,
+        "evidence": []
+      },
+      "cxIndicators": {
+        "score": 0,
+        "weight": 0.15,
+        "evidence": []
       }
     },
     "executives": [],
